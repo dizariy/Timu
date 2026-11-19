@@ -1,0 +1,146 @@
+{
+  "verifiedAt": "2026-10-05",
+  "mode": "curated-snapshot",
+  "note": "Проверенная подборка официальных публикаций. Не является непрерывной новостной лентой. Время суток публикации не установлено; хранится только календарная дата.",
+  "news": [
+    {
+      "id": "nvda-buyback-2026-09-28",
+      "symbol": "NVDA",
+      "company": "NVIDIA",
+      "publishedAt": "2026-09-28",
+      "category": "Капитал",
+      "priority": "Важное",
+      "title": "NVIDIA расширила программу выкупа на $150 млрд",
+      "summary": "Совет директоров одобрил увеличение программы. Общий оставшийся лимит выкупа — $235 млрд; компания планирует исполнение до конца 2028 финансового года.",
+      "relevance": "Возврат капитала может менять структуру капитала и прибыль на акцию. Направление реакции рынка не установлено.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "positive",
+      "impactNote": "Потенциально позитивный корпоративный фактор; реакция цены не установлена."
+    },
+    {
+      "id": "msft-dividend-2026-09-15",
+      "symbol": "MSFT",
+      "company": "Microsoft",
+      "publishedAt": "2026-09-15",
+      "category": "Дивиденды",
+      "priority": "Плановое",
+      "title": "Microsoft увеличила квартальный дивиденд на 8%",
+      "summary": "Объявлен дивиденд $0,98 на акцию. Дата закрытия реестра и экс-дивидендная дата — 19 ноября, выплата запланирована на 10 декабря 2026 года.",
+      "relevance": "Публикация определяет денежный поток акционеров и даты корпоративного события. Это не прогноз стоимости акции.",
+      "source": "Microsoft Source",
+      "url": "https://news.microsoft.com/source/2026/09/15/microsoft-announces-quarterly-dividend-increase-7/",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "positive",
+      "impactNote": "Потенциально позитивный корпоративный фактор; реакция цены не установлена."
+    },
+    {
+      "id": "aapl-siri-2026-09-14",
+      "symbol": "AAPL",
+      "company": "Apple",
+      "publishedAt": "2026-09-14",
+      "category": "Продукты",
+      "priority": "В фокусе",
+      "title": "Apple начала выпуск Siri AI",
+      "summary": "Новая версия Siri и функции Apple Intelligence стали доступны с обновлениями ПО. Siri AI начала распространяться в бета-версии на английском языке.",
+      "relevance": "Развитие продуктовой экосистемы может влиять на спрос и удержание пользователей. Финансовый эффект в этой публикации не измерен.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "neutral",
+      "impactNote": "Направление влияния на цену пока не установлено."
+    },
+    {
+      "id": "meta-dividend-2026-09-10",
+      "symbol": "META",
+      "company": "Meta",
+      "publishedAt": "2026-09-10",
+      "category": "Дивиденды",
+      "priority": "Плановое",
+      "title": "Meta объявила дивиденд $0,525 на акцию",
+      "summary": "Совет директоров объявил квартальный дивиденд по акциям классов A и B. Дата реестра — 21 сентября, дата выплаты — 28 сентября 2026 года.",
+      "relevance": "Корпоративное событие для держателей акций. По одному размеру дивиденда нельзя установить будущую доходность.",
+      "source": "Meta Investor Relations",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Quarterly-Cash-Dividend-bf2dec2b8/default.aspx",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "positive",
+      "impactNote": "Потенциально позитивный корпоративный фактор; реакция цены не установлена."
+    },
+    {
+      "id": "aapl-iphone-2026-09-09",
+      "symbol": "AAPL",
+      "company": "Apple",
+      "publishedAt": "2026-09-09",
+      "category": "Продукты",
+      "priority": "В фокусе",
+      "title": "Apple представила iPhone 18 Pro",
+      "summary": "Представлены iPhone 18 Pro и Pro Max с A20 Pro и камерой с переменной диафрагмой. Компания объявила начало продаж на 18 сентября.",
+      "relevance": "Запуск основной продуктовой линейки — событие для наблюдения за спросом. Данные о фактических продажах в релизе отсутствуют.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "neutral",
+      "impactNote": "Направление влияния на цену пока не установлено."
+    },
+    {
+      "id": "meta-q2-2026-07-29",
+      "symbol": "META",
+      "company": "Meta",
+      "publishedAt": "2026-07-29",
+      "category": "Отчётность",
+      "priority": "Важное",
+      "title": "Выручка Meta выросла на 28%, прибыль снизилась",
+      "summary": "За II квартал 2026 года Meta сообщила выручку $60,8 млрд. Чистая прибыль снизилась на 14% до $15,85 млрд; расходы выросли на 55%.",
+      "relevance": "Разнонаправленная динамика выручки и прибыли помогает оценить экономику бизнеса. Реакция цены акции требует отдельного измерения.",
+      "source": "Meta Investor Relations",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "verified": true,
+      "addedAt": "2026-10-05",
+      "impact": "negative",
+      "impactNote": "Снижение прибыли и рост расходов — потенциально негативные факторы; реакция цены не установлена."
+    }
+  ],
+  "providers": {
+    "recommended": {
+      "name": "Alpha Vantage",
+      "documentation": "https://www.alphavantage.co/documentation/",
+      "support": "https://www.alphavantage.co/support/",
+      "requiresKey": true,
+      "freeRequestsPerDay": 25,
+      "history": "TIME_SERIES_WEEKLY_ADJUSTED: weekly adjusted close + dividends. TIME_SERIES_DAILY: raw daily OHLCV, compact=100 samples. TIME_SERIES_DAILY_ADJUSTED is premium.",
+      "news": "NEWS_SENTIMENT; ticker filter, publication timestamp, source URLs. API-supplied sentiment is not a return probability.",
+      "note": "Use a server-side proxy/cache; never ship secret keys in public JavaScript. Record provider timestamp, currency, adjustment convention and status. Confirm display/redistribution rights before production launch."
+    },
+    "keylessRegulatoryNews": {
+      "name": "SEC EDGAR",
+      "documentation": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "alternateDocumentation": "https://www.sec.gov/edgar/sec-api-documentation",
+      "note": "Official submissions/filings, not general news or stock prices. Can supplement issuer announcements through a server adapter. Does not replace a quotes provider."
+    }
+  },
+  "metrics": {
+    "minimumHonestFirstVersion": [
+      "Сравнение последней и первой цены выбранного периода, в процентах.",
+      "Лучший и худший однодневный доход в окне; для weekly series использовать термин «недельный», не «дневной».",
+      "Максимальная просадка от предыдущего пика по скорректированным закрытиям.",
+      "Число наблюдений, период, валюта и источник рядом с метриками.",
+      "Доля растущих дней — описательная частота на этом участке, не вероятность роста завтра."
+    ],
+    "formulas": {
+      "simpleReturn": "r_t = P_t / P_(t-1) - 1",
+      "cumulativeReturn": "P_last / P_first - 1",
+      "maximumDrawdown": "min_t(P_t / max_(s<=t)(P_s) - 1)",
+      "upwardShare": "count(r_t > 0) / count(all valid r_t); zero-return days remain in denominator",
+      "wilson95": "center=(p+z²/(2n))/(1+z²/n); half=z*sqrt(p*(1-p)/n+z²/(4n²))/(1+z²/n); z=1.96"
+    },
+    "uncertaintySource": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+    "eventStudyRequirements": "To show reaction after similar news: define event category before scoring, align publication timezone to next eligible market session, use adjusted price history and benchmark, exclude overlapping event windows, compare with baseline, show sample size and horizon. Do not present a 50–70% invented probability. Wilson intervals presume Bernoulli assumptions; serial dependence in market returns weakens that interpretation.",
+    "guardrails": "Missing/failed data must render «Нет данных» rather than generated prices. An explicit demo chart must visibly say «Демонстрационные данные — не котировки». Stale news uses absolute publication dates; do not label July/September snapshots as «только что» or live."
+  }
+}

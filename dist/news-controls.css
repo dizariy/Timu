@@ -1,0 +1,214 @@
+.filters{overflow:visible;flex-wrap:wrap;gap:8px;margin-bottom:9px}
+.filters #catalog-open{font:inherit;font-size:12px;padding:9px 15px;color:#737373}
+.filter-tools{display:flex;align-items:center;gap:12px;margin:8px 0 23px}
+.filter-tools button{border-radius:13px;background:#f0f0f0;color:#737373;font-size:12px;padding:9px 15px;box-shadow:var(--pressed);display:flex;gap:8px;align-items:center}
+.filter-tools button svg{width:15px;height:15px}
+.filter-tools button[aria-pressed=true]{color:#853aff}
+.filter-tools .filter-summary{font-size:10px;color:#929292}
+.filter-heading{margin:7px 0 0}
+.filter-heading .eyebrow{font-size:9px;letter-spacing:1.8px;margin-bottom:5px;color:#909090}
+.filter-heading h2{font-size:29px;line-height:1.15;letter-spacing:-.7px;font-weight:550}
+.filter-form{margin-top:46px;min-width:0;color:#242424}
+.filter-form fieldset{padding:0;border:0;margin:0 0 25px;min-width:0}
+.filter-form legend{font-size:12px;font-weight:550;margin-bottom:14px}
+.filter-form .filter-legend-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.filter-choices{display:grid;gap:8px}
+.filter-choice{--indicator-off:#765942;--indicator-on:#ff952b;position:relative;display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:82px;padding:12px 18px 12px 25px;border:1px solid #ffffff80;border-radius:20px;background:#f8f8f8;cursor:pointer;transition:background .2s ease,box-shadow .2s ease;min-width:0}
+.filter-choice.positive{--indicator-off:#518200;--indicator-on:#b5ff45}
+.filter-choice.neutral{--indicator-off:#3b0b7b;--indicator-on:#8840ff}
+.filter-choice:hover{background:#fcfcfc;box-shadow:0 4px 14px #00000008}
+.filter-choice:has(input:focus-visible){outline:2px solid #853aff;outline-offset:4px}
+.filter-choice .filter-checkbox{position:absolute;width:1px;height:1px;opacity:0;margin:0;padding:0;pointer-events:none}
+.filter-choice-copy{display:block;min-width:0;flex:1}
+.filter-choice strong{display:block;font-size:34px;font-weight:380;letter-spacing:-.6px;line-height:1.05}
+.filter-indicator{display:block;width:145px;max-width:75%;height:6px;margin-top:8px;border-radius:999px;background:var(--indicator-off);transition:background-color .5s ease}
+.filter-checkbox:checked~.filter-choice-copy .filter-indicator{background:var(--indicator-on)}
+.filter-check{display:grid;place-items:center;width:49px;height:49px;flex:0 0 49px;border-radius:50%;background:#c5c5c5;color:#929292;transition:background-color .4s ease,color .4s ease}
+.filter-checkbox:checked~.filter-check{background:#853aff;color:#fff}
+.filter-glyph{position:relative;display:block;width:24px;height:24px;transform-origin:50% 50%}
+.filter-bar{position:absolute;left:2px;top:10px;width:20px;height:4px;border-radius:3px;background:currentColor}
+.filter-bar-vertical{transform:rotate(90deg);transform-origin:50% 50%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.filter-checkbox:checked~.filter-check .filter-bar-vertical{transform:rotate(0deg)}
+.filter-choice:has(input:disabled){cursor:not-allowed;opacity:.5}
+.filter-dates{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:13px}
+.filter-dates label{min-width:0;font-size:10px;color:#929292}
+.filter-date-field{
+  position:relative;
+  display:block;
+  min-width:0;
+  height:47px;
+  padding-inline:12px;
+  margin-top:9px;
+  border-radius:14px;
+  background:#eee;
+  box-shadow:var(--pressed);
+}
+.filter-dates input{
+  -webkit-appearance:none;
+  appearance:none;
+  display:block;
+  width:100%;
+  height:100%;
+  min-width:0;
+  padding:0;
+  border:0;
+  border-radius:inherit;
+  background:transparent;
+  color:#525252;
+  font:inherit;
+  font-size:16px;
+  color-scheme:light;
+}
+.filter-dates input::-webkit-date-and-time-value{margin:0;text-align:start}
+.filter-date-summary{display:none}
+.filter-dates input:focus{outline:none}
+.filter-dates input:focus-visible:not(.date-pointer-focus){
+  outline:2px solid var(--active-purple,#853aff);
+  outline-offset:2px;
+}
+.filter-presets{display:flex;gap:12px;flex-wrap:wrap;margin:17px 0 0}
+.filter-presets button{
+  min-height:48px;
+  padding:12px 18px;
+  border-radius:16px;
+  box-shadow:var(--raised);
+  font-size:15px;
+  white-space:nowrap;
+  color:#716c75;
+  background:#f1f1f1;
+  transition:color .34s ease,background-color .36s ease,box-shadow .36s ease;
+}
+.filter-presets button[aria-pressed=true]{color:var(--active-purple,#853aff);box-shadow:var(--pressed)}
+.filter-presets button:hover{
+  background:#faf8fc;
+  box-shadow:var(--raised),inset 0 0 0 1px #fff;
+}
+.filter-presets button[aria-pressed=false]:hover{color:#2b2730}
+.filter-presets button[aria-pressed=true]:hover{box-shadow:var(--pressed),inset 0 0 0 1px #fff}
+.filter-error{color:#9b542e;font-size:12px;margin-bottom:12px}
+.filter-actions{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:stretch}
+.filter-actions button{border-radius:15px;padding:13px 18px;font-size:15px;box-shadow:var(--raised);min-width:0;min-height:54px}
+.filter-actions .clear-filters{
+  --reset-duration:.98s;
+  --reset-surface:#f1f1f1;
+  position:relative;
+  display:grid;
+  place-items:center;
+  isolation:isolate;
+  overflow:hidden;
+  padding:9px;
+  background:var(--reset-surface);
+  color:#716c75;
+  transition:color .34s ease,background-color .36s ease,box-shadow .36s ease;
+}
+.filter-actions .clear-filters:hover{
+  --reset-surface:#faf8fc;
+  color:#2b2730;
+  box-shadow:var(--raised),inset 0 0 0 1px #fff;
+}
+.filter-actions .clear-filters::before,
+.filter-actions .clear-filters::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  opacity:0;
+}
+.filter-actions .clear-filters::before{background:var(--active-purple,#853aff)}
+.filter-actions .clear-filters::after{background:var(--reset-surface)}
+.filter-actions .reset-glyph{
+  z-index:1;
+  position:relative;
+  display:block;
+  transform-origin:center;
+}
+.filter-actions .reset-glyph-white,
+.filter-actions .reset-glyph-cover{
+  position:absolute;
+  inset:0;
+  opacity:0;
+}
+.filter-actions .reset-glyph-white{color:#fff}
+.filter-actions .clear-filters svg{
+  display:block;
+  width:35px;
+  height:35px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2.1;
+}
+/* The neutral cover contracts first. The purple layer contracts on exit. */
+.filter-actions .clear-filters.is-resetting::before{animation:filter-reset-fill var(--reset-duration) both}
+.filter-actions .clear-filters.is-resetting::after{animation:filter-reset-cover var(--reset-duration) both}
+.filter-actions .clear-filters.is-resetting .reset-glyph{animation:filter-reset-spin var(--reset-duration) cubic-bezier(.2,.72,.25,1) both}
+.filter-actions .clear-filters.is-resetting .reset-glyph-white{animation:filter-reset-glyph-white var(--reset-duration) both}
+.filter-actions .clear-filters.is-resetting .reset-glyph-cover{animation:filter-reset-glyph-cover var(--reset-duration) both}
+@keyframes filter-reset-fill{
+  0%,76%{opacity:1;clip-path:circle(74% at center)}
+  100%{opacity:1;clip-path:circle(0 at center)}
+}
+@keyframes filter-reset-cover{
+  from{opacity:1;clip-path:circle(74% at center)}
+  26%,100%{opacity:1;clip-path:circle(0 at center)}
+}
+@keyframes filter-reset-spin{
+  from{transform:rotate(0deg)}
+  76%,100%{transform:rotate(360deg)}
+}
+@keyframes filter-reset-glyph-white{
+  0%,84%{opacity:1;clip-path:circle(74% at center)}
+  100%{opacity:1;clip-path:circle(0 at center)}
+}
+@keyframes filter-reset-glyph-cover{
+  0%,12%{opacity:1;clip-path:circle(74% at center)}
+  28%,100%{opacity:1;clip-path:circle(0 at center)}
+}
+.filter-actions .apply{
+  background:#f1f1f1;
+  color:#242424;
+  font-weight:450;
+  transition:color .42s ease,background-color .5s ease,box-shadow .5s ease;
+}
+.filter-actions .apply:hover{
+  background:#fbf8ff;
+  color:var(--active-purple,#853aff);
+  box-shadow:var(--raised),inset 0 0 0 1px #fff;
+}
+.feed-more{display:block;margin:24px auto 0;padding:12px 25px}
+.company-logo-button{cursor:pointer;transition:background .2s ease}
+.company-logo-button:hover,.company-logo-button:focus-visible{background:#ffffff16}
+.news-refresh{padding:3px;font-size:10px;color:#858585;white-space:nowrap}
+.results-header{gap:12px}
+.feed-section>.data-note{min-height:15px}
+.feed-section>.data-note .stale{color:#ad8658}
+@media(max-width:860px){.filters{gap:3px}.filters #catalog-open{font-size:11px;padding:9px 12px}.filter-tools{margin-bottom:18px}.filter-tools button{font-size:11px;padding:9px 12px}}
+@media(max-width:500px){.filter-heading h2{font-size:27px}.filter-form{margin-top:32px}.filter-choice{min-height:75px;padding:12px 15px 12px 18px;border-radius:18px;gap:14px}.filter-choice strong{font-size:29px}.filter-check{width:43px;height:43px;flex-basis:43px}.filter-indicator{width:128px;height:5px;margin-top:7px}.filter-form fieldset{margin-bottom:23px}.filter-presets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.filter-presets button{font-size:14px;padding:12px 10px;min-height:47px}.filter-actions{grid-template-columns:64px minmax(0,1fr);gap:12px}.filter-actions button{min-height:51px}}
+@media(max-width:600px) and (pointer:coarse){
+  .filter-date-field{padding-inline:10px}
+  .filter-date-summary{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:6px;
+    height:100%;
+    font-size:15px;
+    font-variant-numeric:tabular-nums;
+    color:#525252;
+    pointer-events:none;
+  }
+  .filter-date-summary .date-empty{color:#757078}
+  .filter-date-summary svg{width:16px;height:16px;flex:none;color:#757078}
+  /* Keep native pickers and give WebKit a definite, padding-free hit target. */
+  .filter-dates input{position:absolute;inset:0;opacity:0;margin:0}
+  .filter-dates input::-webkit-calendar-picker-indicator{position:absolute;inset:0;width:100%;height:100%;padding:0;margin:0}
+  .filter-date-field:has(input:focus-visible:not(.date-pointer-focus)){outline:2px solid var(--active-purple,#853aff);outline-offset:2px}
+}
+@media(max-width:350px){.filter-choice{padding-left:14px;gap:10px}.filter-choice strong{font-size:26px}.filter-check{width:39px;height:39px;flex-basis:39px}.filter-dates{gap:9px}.filter-date-field{padding-inline:8px}.filter-date-summary{font-size:14px}.filter-presets{gap:9px}.filter-presets button{padding:12px 9px;font-size:13px}.filter-actions{gap:10px}}
+@media(prefers-reduced-motion:reduce){
+  .company-logo-button,.filter-choice,.filter-check,.filter-bar-vertical,.filter-indicator,.filter-presets button,
+  .filter-actions .clear-filters,.filter-actions .apply{transition:none}
+  .filter-actions .clear-filters.is-resetting::before,.filter-actions .clear-filters.is-resetting::after,
+  .filter-actions .clear-filters.is-resetting .reset-glyph,.filter-actions .clear-filters.is-resetting .reset-glyph-white,
+  .filter-actions .clear-filters.is-resetting .reset-glyph-cover{animation:none}
+  .filter-actions .clear-filters:active{background:var(--active-purple,#853aff);color:#fff}
+}

@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {createNewsTranslator,splitSegments} from './server/news-translation.mjs';
+const article={id:'demo',title:'Company announces results',summary:'Revenue increased by 10 percent.',url:'https://example.com/news'};
+let calls=0;
+const fetcher=async url=>{calls++;assert.equal(url.origin,'https://api.mymemory.translated.net');assert.equal(url.searchParams.get('langpair'),'en|ru');assert(Buffer.byteLength(url.searchParams.get('q'))<=500);return {ok:true,status:200,text:async()=>JSON.stringify({responseStatus:200,responseData:{translatedText:url.searchParams.get('q').startsWith('Company')?'Компания объявляет результаты':'Выручка увеличилась на 10 процентов.'}})}};
+const translate=createNewsTranslator({fetcher,storeURL:null});
+const [a,b]=await Promise.all([translate(article),translate(article)]);
+assert(a.translated);assert.equal(a.title,'Компания объявляет результаты');assert.deepEqual(a.original,{title:article.title,summary:article.summary,url:article.url});assert.equal(calls,2);assert.deepEqual(a,b);
+await translate(article);assert.equal(calls,2);
+const same=await translate({...article,title:'Компания объявляет результаты'});assert.equal(same.status,'original');assert.equal(calls,2);
+const limited=createNewsTranslator({fetcher,storeURL:null,dailyBudget:5});assert.equal((await limited(article)).status,'quota');assert.equal(calls,2);
+let failedCalls=0;const broken=createNewsTranslator({fetcher:async()=>{failedCalls++;throw Error('offline')},storeURL:null});
+const failure=await broken(article);assert.equal(failure.translated,false);assert.equal(failure.title,article.title);await broken(article);assert.equal(failedCalls,1);
+for(const part of splitSegments('Привет '.repeat(100)))assert(Buffer.byteLength(part)<=500);
+assert.equal(splitSegments('A'.repeat(1200)).join('').length,1200);
+console.log('PASS translation cache, concurrent requests, quota, original fallback, Unicode limits and original preservation');

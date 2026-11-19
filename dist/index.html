@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#f0f0f0"><meta name="description" content="timu — события компаний и понятная история рынка.">
+  <title>timu — Домашняя</title>
+  <link rel="icon" href="assets/timu-icon.svg" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/timu-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="timu">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="enhancements.css">
+  <link rel="stylesheet" href="news-controls.css">
+  <link rel="stylesheet" href="commodities.css">
+  <link rel="stylesheet" href="revisions.css">
+  <link rel="stylesheet" href="currency.css">
+  <link rel="stylesheet" href="bank-logos.css">
+  <link rel="stylesheet" href="commodity-offers.css">
+  <link rel="stylesheet" href="dot-chart.css">
+  <link rel="stylesheet" href="interaction-polish.css">
+  <link rel="stylesheet" href="detail-polish.css">
+  <link rel="stylesheet" href="scroll-search.css">
+  <link rel="stylesheet" href="card-surfaces.css">
+  <link rel="stylesheet" href="hero-gradient.css">
+  <link rel="preload" as="image" href="assets/timu.png">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#feed">К новостям</a>
+  <div id="splash" aria-hidden="true"></div>
+  <main class="app-shell">
+    <header class="hero" id="hero">
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-field">
+          <canvas class="hero-liquid"></canvas>
+          <div class="hero-grain"></div>
+        </div>
+      </div>
+      <button id="brand" class="brand" aria-label="timu — повторить заставку"><svg viewBox="0 0 358 187" aria-hidden="true"><defs><filter id="timu-invert" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/></filter><mask id="timu-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="358" height="187"><image href="assets/timu.png" width="358" height="187" filter="url(#timu-invert)"/></mask></defs><rect width="358" height="187" fill="currentColor" mask="url(#timu-mask)"/></svg></button>
+    </header>
+    <div id="search-anchor" class="search-anchor">
+      <div class="search-shell" id="search-shell">
+        <button id="search-button" class="search-icon" aria-label="Открыть поиск" aria-controls="search" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.3 16.3 4.6 4.6"/></svg></button>
+        <input id="search" type="search" placeholder="Найти компанию или событие" aria-label="Найти компанию или событие" autocomplete="off">
+        <kbd id="search-hint">/</kbd>
+        <button id="search-close" class="search-close" aria-label="Свернуть поиск">×</button>
+      </div>
+    </div>
+    <div class="body-grid">
+      <section class="feed-section" aria-labelledby="home-title">
+        <div class="section-title"><div><h1 id="home-title">Домашняя</h1></div><button id="saved-toggle" class="round raised" aria-label="Показать сохранённые" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M6.5 4.5h11v16L12 17l-5.5 3.5Z"/></svg></button></div>
+        <div class="data-note"><span class="status-dot"></span><span id="news-status" aria-live="polite">Подключаем ленту…</span></div>
+        <div class="filters" aria-label="Фильтр новостей"><button class="active" data-filter="all" aria-pressed="true">Всё</button><button data-filter="currency" aria-pressed="false">Валюта</button><button data-filter="commodities" aria-pressed="false">Сырьё</button><button id="catalog-open" aria-haspopup="dialog">Компании</button></div>
+        <div class="filter-tools" id="filter-tools"><button id="news-filter" aria-label="Фильтр новостей" aria-haspopup="dialog" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M8 4v6M16 14v6"/></svg><span id="news-filter-label">Фильтр</span></button><span id="filter-summary" class="filter-summary"></span></div>
+        <div class="results-header"><span id="result-label" aria-live="polite">События компаний</span><button id="news-refresh" class="news-refresh refresh-control" aria-label="Обновить новости">Обновить</button></div>
+        <div id="company-results" class="company-results"></div>
+        <div id="commodities" hidden></div>
+        <div id="currency" hidden></div>
+        <div id="feed" class="feed"><div class="loading-card">Собираем вашу ленту…</div></div><button id="feed-more" class="small-button feed-more" hidden>Показать ещё</button>
+      </section>
+      <aside class="sidebar">
+        <section class="soft-panel"><p class="eyebrow">ДЕРЖИТЕ В ПОЛЕ ЗРЕНИЯ</p><h2>Компании</h2><div id="company-list"></div><button id="all-companies" class="text-button">Все компании</button></section>
+      </aside>
+    </div>
+  </main>
+  <div class="bottom-controls" id="bottom-controls">
+    <button class="dock-search" id="search-dock" type="button" aria-label="Открыть поиск" aria-controls="search" aria-expanded="false" inert><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.3 16.3 4.6 4.6"/></svg></button>
+    <nav class="bottom-nav" aria-label="Основная навигация"><button class="selected" id="nav-home" aria-current="page"><img src="assets/home.svg" alt=""><span>Домашняя</span></button><button class="upcoming" data-upcoming="Обучение" aria-label="Обучение — в разработке"><img src="assets/learning.svg" alt=""><span>Обучение</span></button><button class="upcoming" data-upcoming="Настройки" aria-label="Настройки — в разработке"><img src="assets/settings.svg" alt=""><span>Настройки</span></button></nav>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-scroll"><div class="dialog-top"><div class="drag-handle"></div><button id="dialog-close" class="round raised close-control" aria-label="Закрыть окно">×</button></div><div id="dialog-content"></div></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <noscript><p>Для поиска и графиков включите JavaScript в браузере.</p></noscript>
+</body>
+</html>

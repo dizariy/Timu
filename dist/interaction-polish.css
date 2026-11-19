@@ -1,0 +1,113 @@
+/* Shared colours for the filter and the date badge. */
+:root{--urgent:#ff952b;--important:#b5ff45;--ordinary:#8840ff}
+.filter-choice.negative{--indicator-on:var(--urgent)}
+.filter-choice.positive{--indicator-on:var(--important)}
+.filter-choice.neutral{--indicator-on:var(--ordinary)}
+.pill.date.priority-urgent{background:var(--urgent);color:#30200e}
+.pill.date.priority-important{background:var(--important);color:#243315}
+.pill.date.priority-ordinary{background:var(--ordinary);color:#fff}
+.priority-reason{margin:10px 0 0}
+.context-box .priority-reason b{font-weight:650}
+
+/* Each surface moves independently while the card keeps its layout. */
+.news-card {
+  --logo-column: 105px;
+  --logo-overlap: 32px;
+  --logo-travel: 8px;
+  --logo-shift: 0px;
+  --brand-lightness: 1;
+  --brand-gradient: linear-gradient(135deg,var(--c1),var(--c2));
+  --card-motion: 320ms cubic-bezier(.22,.68,.3,1);
+  grid-template-columns: var(--logo-column) minmax(0,1fr);
+  isolation: isolate;
+  transition: none;
+}
+.news-card,.news-card.missing-brand { background: none; }
+.news-card.missing-brand {
+  --brand-gradient: linear-gradient(155deg,#8b3dff 0%,#5120b1 43%,#04002b 100%);
+}
+.news-card:hover { transform: none; }
+.news-card::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  width: calc(var(--logo-column) + var(--logo-overlap) + var(--logo-travel));
+  border-radius: inherit;
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: var(--brand-gradient);
+  translate: var(--logo-shift) 0;
+  filter: brightness(var(--brand-lightness));
+  transition: translate var(--card-motion), filter var(--card-motion);
+}
+.news-card .card-body {
+  grid-column: 2;
+  z-index: 2;
+  background: #fff;
+  border-start-end-radius: 26px;
+  border-end-end-radius: 26px;
+  box-shadow: none;
+  transform-origin: center;
+  transition: scale var(--card-motion), box-shadow var(--card-motion);
+}
+.news-card .company-logo-button {
+  position: relative;
+  grid-column: 1;
+  inset-inline-start: calc(-1 * var(--logo-travel));
+  width: calc(100% + var(--logo-overlap) + var(--logo-travel));
+  padding: 0 0 0 var(--logo-travel);
+  border-radius: inherit;
+  display: grid;
+  grid-template-columns: var(--logo-column);
+  place-content: center start;
+  place-items: center;
+  z-index: 1;
+  background: transparent;
+}
+.news-card .company-logo-button:focus-visible { outline-offset: -4px; }
+.news-card .company-logo-button:active { transform: none; }
+.news-card .company-logo-button > :is(img,svg) {
+  translate: var(--logo-shift) 0;
+  transition: translate var(--card-motion);
+}
+.news-card:has(.company-logo-button:focus-visible) { --brand-lightness: 1.11; }
+.news-card:has(.company-logo-button:active) { --brand-lightness: 1.16; }
+@media (hover: hover) and (pointer: fine) {
+  .news-card:has(.company-logo-button:hover) { --brand-lightness: 1.11; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .news-card:has(.company-logo-button:focus-visible) { --logo-shift: calc(-1 * var(--logo-travel)); }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .news-card:has(.company-logo-button:hover) { --logo-shift: calc(-1 * var(--logo-travel)); }
+  .news-card .card-body:hover { scale: 1.018; box-shadow: 0 7px 19px #00000013; }
+}
+.close-control,.search-close{transition:background-color .16s ease,color .16s ease,box-shadow .16s ease}
+.close-control:active,.search-shell .search-close:active,.catalog-search-shell .close-control:active{background:#853aff;color:#fff;box-shadow:inset 3px 3px 7px #42177b75,inset -2px -2px 5px #c9a5ff70;transform:scale(.95)}
+
+/* Scrollbars sit inside the surface and fade after scrolling. Native scrolling remains. */
+html,.dialog-scroll{scrollbar-width:none;scrollbar-gutter:auto}
+html::-webkit-scrollbar,.dialog-scroll::-webkit-scrollbar{display:none;width:0;height:0}
+dialog{padding:0;overflow:hidden;scrollbar-width:none;scrollbar-gutter:auto}
+.dialog-scroll{max-height:calc(100dvh - 58px);overflow:auto;overscroll-behavior:contain;padding:0 30px 32px;scroll-padding-top:64px}
+.soft-scrollbar{position:fixed;top:12px;bottom:12px;right:5px;width:6px;z-index:45;opacity:0;transition:opacity .3s ease;pointer-events:none}
+dialog>.soft-scrollbar{position:absolute;top:64px;bottom:22px;right:7px;z-index:5}
+.soft-scrollbar.visible,.soft-scrollbar:focus-within{opacity:1;pointer-events:auto}
+.soft-scrollbar[hidden]{display:none!important}
+.soft-scrollbar-thumb{position:absolute;inset:0 0 auto;height:32px;min-height:28px;padding:0;border:0;border-radius:8px;background:#aaa;touch-action:none;cursor:grab;transform:none}
+.soft-scrollbar-thumb:active{background:#853aff;cursor:grabbing;transform:none}
+.soft-scrollbar-thumb:focus-visible{outline:2px solid #853aff;outline-offset:2px}
+body.no-scroll>.soft-scrollbar{visibility:hidden}
+@media(max-width:860px){
+  .dialog-scroll{padding:0 22px max(28px,env(safe-area-inset-bottom));max-height:calc(100dvh - 20px)}
+  .news-card{--logo-column:88px;--logo-travel:6px}
+  .news-card .card-body{border-start-end-radius:24px;border-end-end-radius:24px}
+}
+@media(max-width:370px){.news-card{--logo-column:75px;--logo-travel:5px}}
+@media(prefers-reduced-motion:reduce){.soft-scrollbar,.news-card,.company-logo-button,.close-control,.search-close{transition:none}}
+
+.news-card .company-logo-button svg.fallback-logo{width:64px;height:40px;color:#fff;stroke:none;overflow:visible}
+.company-mini svg.fallback-logo{width:30px;height:24px;color:#fff;stroke:none}

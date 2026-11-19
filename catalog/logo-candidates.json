@@ -1,0 +1,2568 @@
+[
+  {
+    "title": "Abbott",
+    "slug": "abbott",
+    "matches": [
+      {
+        "symbol": "ABT",
+        "name": "ABBOTT LABORATORIES"
+      }
+    ]
+  },
+  {
+    "title": "Abbvie",
+    "slug": "abbvie",
+    "matches": [
+      {
+        "symbol": "ABBV",
+        "name": "AbbVie Inc."
+      }
+    ]
+  },
+  {
+    "title": "Accenture",
+    "slug": "accenture",
+    "matches": [
+      {
+        "symbol": "ACN",
+        "name": "Accenture plc"
+      }
+    ]
+  },
+  {
+    "title": "Agora",
+    "slug": "agora",
+    "matches": [
+      {
+        "symbol": "API",
+        "name": "Agora, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Airbnb",
+    "slug": "airbnb",
+    "matches": [
+      {
+        "symbol": "ABNB",
+        "name": "Airbnb, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Akamai",
+    "slug": "akamai",
+    "matches": [
+      {
+        "symbol": "AKAM",
+        "name": "AKAMAI TECHNOLOGIES INC"
+      }
+    ]
+  },
+  {
+    "title": "Allegro",
+    "slug": "allegro",
+    "matches": [
+      {
+        "symbol": "ALGM",
+        "name": "ALLEGRO MICROSYSTEMS, INC."
+      }
+    ]
+  },
+  {
+    "title": "American Airlines",
+    "slug": "americanairlines",
+    "matches": [
+      {
+        "symbol": "AAL",
+        "name": "American Airlines Group Inc."
+      }
+    ]
+  },
+  {
+    "title": "American Express",
+    "slug": "americanexpress",
+    "matches": [
+      {
+        "symbol": "AXP",
+        "name": "AMERICAN EXPRESS CO"
+      }
+    ]
+  },
+  {
+    "title": "Appian",
+    "slug": "appian",
+    "matches": [
+      {
+        "symbol": "APPN",
+        "name": "APPIAN CORP"
+      }
+    ]
+  },
+  {
+    "title": "Apple",
+    "slug": "apple",
+    "matches": [
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc."
+      }
+    ]
+  },
+  {
+    "title": "Asana",
+    "slug": "asana",
+    "matches": [
+      {
+        "symbol": "ASAN",
+        "name": "Asana, Inc."
+      }
+    ]
+  },
+  {
+    "title": "AT&T",
+    "slug": "atandt",
+    "matches": [
+      {
+        "symbol": "T",
+        "name": "AT&T INC."
+      },
+      {
+        "symbol": "TBB",
+        "name": "AT&T INC."
+      },
+      {
+        "symbol": "T-PA",
+        "name": "AT&T INC."
+      },
+      {
+        "symbol": "T-PC",
+        "name": "AT&T INC."
+      }
+    ]
+  },
+  {
+    "title": "Atlassian",
+    "slug": "atlassian",
+    "matches": [
+      {
+        "symbol": "TEAM",
+        "name": "Atlassian Corp"
+      }
+    ]
+  },
+  {
+    "title": "Autodesk",
+    "slug": "autodesk",
+    "matches": [
+      {
+        "symbol": "ADSK",
+        "name": "Autodesk, Inc."
+      }
+    ]
+  },
+  {
+    "title": "AutoZone",
+    "slug": "autozone",
+    "matches": [
+      {
+        "symbol": "AZO",
+        "name": "AUTOZONE INC"
+      }
+    ]
+  },
+  {
+    "title": "Backblaze",
+    "slug": "backblaze",
+    "matches": [
+      {
+        "symbol": "BLZE",
+        "name": "Backblaze, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Baidu",
+    "slug": "baidu",
+    "matches": [
+      {
+        "symbol": "BIDU",
+        "name": "Baidu, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Bank of America",
+    "slug": "bankofamerica",
+    "matches": [
+      {
+        "symbol": "BAC",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BML-PG",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BML-PL",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PB",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PK",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PE",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PL",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PM",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PN",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PO",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PP",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PQ",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BAC-PS",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BML-PH",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "BML-PJ",
+        "name": "BANK OF AMERICA CORP /DE/"
+      },
+      {
+        "symbol": "MER-PK",
+        "name": "BANK OF AMERICA CORP /DE/"
+      }
+    ]
+  },
+  {
+    "title": "Barclays",
+    "slug": "barclays",
+    "matches": [
+      {
+        "symbol": "BCS",
+        "name": "BARCLAYS PLC"
+      },
+      {
+        "symbol": "ATMP",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "DJP",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "GBUG",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "GRN",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "TAPR",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "VXX",
+        "name": "BARCLAYS BANK PLC"
+      },
+      {
+        "symbol": "VXZ",
+        "name": "BARCLAYS BANK PLC"
+      }
+    ]
+  },
+  {
+    "title": "Bentley",
+    "slug": "bentley",
+    "matches": [
+      {
+        "symbol": "BSY",
+        "name": "BENTLEY SYSTEMS INC"
+      }
+    ]
+  },
+  {
+    "title": "Bilibili",
+    "slug": "bilibili",
+    "matches": [
+      {
+        "symbol": "BILI",
+        "name": "Bilibili Inc."
+      }
+    ]
+  },
+  {
+    "title": "Bitcoin",
+    "slug": "bitcoin",
+    "matches": [
+      {
+        "symbol": "BIXI",
+        "name": "Bitcoin Infrastructure Acquisition Corp Ltd"
+      },
+      {
+        "symbol": "BIXIU",
+        "name": "Bitcoin Infrastructure Acquisition Corp Ltd"
+      },
+      {
+        "symbol": "BIXIW",
+        "name": "Bitcoin Infrastructure Acquisition Corp Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Blackberry",
+    "slug": "blackberry",
+    "matches": [
+      {
+        "symbol": "BB",
+        "name": "BLACKBERRY Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Boeing",
+    "slug": "boeing",
+    "matches": [
+      {
+        "symbol": "BA",
+        "name": "BOEING CO"
+      },
+      {
+        "symbol": "BA-PA",
+        "name": "BOEING CO"
+      }
+    ]
+  },
+  {
+    "title": "Box",
+    "slug": "box",
+    "matches": [
+      {
+        "symbol": "BOX",
+        "name": "BOX INC"
+      }
+    ]
+  },
+  {
+    "title": "Broadcom",
+    "slug": "broadcom",
+    "matches": [
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc."
+      }
+    ]
+  },
+  {
+    "title": "BuzzFeed",
+    "slug": "buzzfeed",
+    "matches": [
+      {
+        "symbol": "BZFD",
+        "name": "BuzzFeed, Inc."
+      },
+      {
+        "symbol": "BZFDW",
+        "name": "BuzzFeed, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Caterpillar",
+    "slug": "caterpillar",
+    "matches": [
+      {
+        "symbol": "CAT",
+        "name": "CATERPILLAR INC"
+      }
+    ]
+  },
+  {
+    "title": "Charles",
+    "slug": "charles",
+    "matches": [
+      {
+        "symbol": "CRL",
+        "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC."
+      }
+    ]
+  },
+  {
+    "title": "Circle",
+    "slug": "circle",
+    "matches": [
+      {
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc."
+      },
+      {
+        "symbol": "CIRC",
+        "name": "CIRCLE8 GROUP INC"
+      }
+    ]
+  },
+  {
+    "title": "Clarivate",
+    "slug": "clarivate",
+    "matches": [
+      {
+        "symbol": "CLVT",
+        "name": "CLARIVATE PLC"
+      }
+    ]
+  },
+  {
+    "title": "Cloudflare",
+    "slug": "cloudflare",
+    "matches": [
+      {
+        "symbol": "NET",
+        "name": "Cloudflare, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Coca-Cola",
+    "slug": "cocacola",
+    "matches": [
+      {
+        "symbol": "KO",
+        "name": "COCA COLA CO"
+      },
+      {
+        "symbol": "CCEP",
+        "name": "COCA-COLA EUROPACIFIC PARTNERS plc"
+      },
+      {
+        "symbol": "COKE",
+        "name": "Coca-Cola Consolidated, Inc."
+      },
+      {
+        "symbol": "KOF",
+        "name": "COCA COLA FEMSA SAB DE CV"
+      }
+    ]
+  },
+  {
+    "title": "Coinbase",
+    "slug": "coinbase",
+    "matches": [
+      {
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Corsair",
+    "slug": "corsair",
+    "matches": [
+      {
+        "symbol": "CRSR",
+        "name": "Corsair Gaming, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Coursera",
+    "slug": "coursera",
+    "matches": [
+      {
+        "symbol": "COUR",
+        "name": "Coursera, Inc."
+      }
+    ]
+  },
+  {
+    "title": "CTS",
+    "slug": "cts",
+    "matches": [
+      {
+        "symbol": "CTS",
+        "name": "CTS CORP"
+      }
+    ]
+  },
+  {
+    "title": "Datadog",
+    "slug": "datadog",
+    "matches": [
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Deutsche Bank",
+    "slug": "deutschebank",
+    "matches": [
+      {
+        "symbol": "DB",
+        "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT"
+      },
+      {
+        "symbol": "DGP",
+        "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT"
+      },
+      {
+        "symbol": "DGZ",
+        "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT"
+      },
+      {
+        "symbol": "DZZ",
+        "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT"
+      }
+    ]
+  },
+  {
+    "title": "DigitalOcean",
+    "slug": "digitalocean",
+    "matches": [
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Dolphin",
+    "slug": "dolphin",
+    "matches": [
+      {
+        "symbol": "DLPN",
+        "name": "Dolphin Entertainment, Inc."
+      }
+    ]
+  },
+  {
+    "title": "DoorDash",
+    "slug": "doordash",
+    "matches": [
+      {
+        "symbol": "DASH",
+        "name": "DoorDash, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Dropbox",
+    "slug": "dropbox",
+    "matches": [
+      {
+        "symbol": "DBX",
+        "name": "DROPBOX, INC."
+      }
+    ]
+  },
+  {
+    "title": "Duolingo",
+    "slug": "duolingo",
+    "matches": [
+      {
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Dynatrace",
+    "slug": "dynatrace",
+    "matches": [
+      {
+        "symbol": "DT",
+        "name": "Dynatrace, Inc."
+      }
+    ]
+  },
+  {
+    "title": "eBay",
+    "slug": "ebay",
+    "matches": [
+      {
+        "symbol": "EBAY",
+        "name": "EBAY INC"
+      }
+    ]
+  },
+  {
+    "title": "Elastic",
+    "slug": "elastic",
+    "matches": [
+      {
+        "symbol": "ESTC",
+        "name": "Elastic N.V."
+      }
+    ]
+  },
+  {
+    "title": "Element",
+    "slug": "element",
+    "matches": [
+      {
+        "symbol": "ESI",
+        "name": "Element Solutions Inc"
+      },
+      {
+        "symbol": "ELE",
+        "name": "Elemental Royalty Corp"
+      }
+    ]
+  },
+  {
+    "title": "Ericsson",
+    "slug": "ericsson",
+    "matches": [
+      {
+        "symbol": "ERIC",
+        "name": "ERICSSON LM TELEPHONE CO"
+      }
+    ]
+  },
+  {
+    "title": "Etsy",
+    "slug": "etsy",
+    "matches": [
+      {
+        "symbol": "ETSY",
+        "name": "ETSY INC"
+      }
+    ]
+  },
+  {
+    "title": "Expedia",
+    "slug": "expedia",
+    "matches": [
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Expensify",
+    "slug": "expensify",
+    "matches": [
+      {
+        "symbol": "EXFY",
+        "name": "Expensify, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Falcon",
+    "slug": "falcon",
+    "matches": [
+      {
+        "symbol": "FBYD",
+        "name": "Falcon's Beyond Global, Inc."
+      },
+      {
+        "symbol": "FBYDP",
+        "name": "Falcon's Beyond Global, Inc."
+      },
+      {
+        "symbol": "FBYDW",
+        "name": "Falcon's Beyond Global, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Fastly",
+    "slug": "fastly",
+    "matches": [
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Fathom",
+    "slug": "fathom",
+    "matches": [
+      {
+        "symbol": "FTHM",
+        "name": "Fathom Holdings Inc."
+      }
+    ]
+  },
+  {
+    "title": "FedEx",
+    "slug": "fedex",
+    "matches": [
+      {
+        "symbol": "FDX",
+        "name": "FEDEX CORP"
+      }
+    ]
+  },
+  {
+    "title": "Ferrari",
+    "slug": "ferrari",
+    "matches": [
+      {
+        "symbol": "RACE",
+        "name": "Ferrari N.V."
+      }
+    ]
+  },
+  {
+    "title": "Ferrari N.V.",
+    "slug": "ferrarinv",
+    "matches": [
+      {
+        "symbol": "RACE",
+        "name": "Ferrari N.V."
+      }
+    ]
+  },
+  {
+    "title": "Figma",
+    "slug": "figma",
+    "matches": [
+      {
+        "symbol": "FIG",
+        "name": "Figma, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Fiverr",
+    "slug": "fiverr",
+    "matches": [
+      {
+        "symbol": "FVRR",
+        "name": "Fiverr International Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Flower",
+    "slug": "flower",
+    "matches": [
+      {
+        "symbol": "FLO",
+        "name": "FLOWERS FOODS INC"
+      }
+    ]
+  },
+  {
+    "title": "Flutter",
+    "slug": "flutter",
+    "matches": [
+      {
+        "symbol": "FLUT",
+        "name": "Flutter Entertainment plc"
+      }
+    ]
+  },
+  {
+    "title": "Fortinet",
+    "slug": "fortinet",
+    "matches": [
+      {
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc."
+      }
+    ]
+  },
+  {
+    "title": "FOX",
+    "slug": "fox",
+    "matches": [
+      {
+        "symbol": "FOXA",
+        "name": "Fox Corp"
+      },
+      {
+        "symbol": "FOX",
+        "name": "Fox Corp"
+      }
+    ]
+  },
+  {
+    "title": "Garmin",
+    "slug": "garmin",
+    "matches": [
+      {
+        "symbol": "GRMN",
+        "name": "GARMIN LTD"
+      }
+    ]
+  },
+  {
+    "title": "General Electric",
+    "slug": "generalelectric",
+    "matches": [
+      {
+        "symbol": "GE",
+        "name": "GENERAL ELECTRIC CO"
+      }
+    ]
+  },
+  {
+    "title": "General Motors",
+    "slug": "generalmotors",
+    "matches": [
+      {
+        "symbol": "GM",
+        "name": "General Motors Co"
+      }
+    ]
+  },
+  {
+    "title": "Genius",
+    "slug": "genius",
+    "matches": [
+      {
+        "symbol": "GENI",
+        "name": "Genius Sports Ltd"
+      },
+      {
+        "symbol": "GNS",
+        "name": "Genius Group Ltd"
+      }
+    ]
+  },
+  {
+    "title": "GitLab",
+    "slug": "gitlab",
+    "matches": [
+      {
+        "symbol": "GTLB",
+        "name": "Gitlab Inc."
+      }
+    ]
+  },
+  {
+    "title": "Globus",
+    "slug": "globus",
+    "matches": [
+      {
+        "symbol": "GMED",
+        "name": "GLOBUS MEDICAL INC"
+      },
+      {
+        "symbol": "GLBS",
+        "name": "GLOBUS MARITIME LTD"
+      }
+    ]
+  },
+  {
+    "title": "GoDaddy",
+    "slug": "godaddy",
+    "matches": [
+      {
+        "symbol": "GDDY",
+        "name": "GoDaddy Inc."
+      }
+    ]
+  },
+  {
+    "title": "Goldman Sachs",
+    "slug": "goldmansachs",
+    "matches": [
+      {
+        "symbol": "GS",
+        "name": "GOLDMAN SACHS GROUP INC"
+      },
+      {
+        "symbol": "GSBD",
+        "name": "Goldman Sachs BDC, Inc."
+      },
+      {
+        "symbol": "AAAU",
+        "name": "Goldman Sachs Physical Gold ETF"
+      },
+      {
+        "symbol": "GS-PA",
+        "name": "GOLDMAN SACHS GROUP INC"
+      },
+      {
+        "symbol": "GS-PC",
+        "name": "GOLDMAN SACHS GROUP INC"
+      },
+      {
+        "symbol": "GS-PD",
+        "name": "GOLDMAN SACHS GROUP INC"
+      }
+    ]
+  },
+  {
+    "title": "Grab",
+    "slug": "grab",
+    "matches": [
+      {
+        "symbol": "GRAB",
+        "name": "Grab Holdings Ltd"
+      },
+      {
+        "symbol": "GRABW",
+        "name": "Grab Holdings Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Grid.ai",
+    "slug": "griddotai",
+    "matches": [
+      {
+        "symbol": "GRDX",
+        "name": "GridAI Technologies Corp."
+      }
+    ]
+  },
+  {
+    "title": "Groupon",
+    "slug": "groupon",
+    "matches": [
+      {
+        "symbol": "GRPN",
+        "name": "Groupon, Inc."
+      }
+    ]
+  },
+  {
+    "title": "GSK",
+    "slug": "gsk",
+    "matches": [
+      {
+        "symbol": "GSK",
+        "name": "GSK plc"
+      }
+    ]
+  },
+  {
+    "title": "HDFC Bank",
+    "slug": "hdfcbank",
+    "matches": [
+      {
+        "symbol": "HDB",
+        "name": "HDFC BANK LTD"
+      }
+    ]
+  },
+  {
+    "title": "HERE",
+    "slug": "here",
+    "matches": [
+      {
+        "symbol": "HERE",
+        "name": "Here Group Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Hilton",
+    "slug": "hilton",
+    "matches": [
+      {
+        "symbol": "HLT",
+        "name": "Hilton Worldwide Holdings Inc."
+      },
+      {
+        "symbol": "HGV",
+        "name": "Hilton Grand Vacations Inc."
+      }
+    ]
+  },
+  {
+    "title": "HSBC",
+    "slug": "hsbc",
+    "matches": [
+      {
+        "symbol": "HSBC",
+        "name": "HSBC HOLDINGS PLC"
+      }
+    ]
+  },
+  {
+    "title": "HubSpot",
+    "slug": "hubspot",
+    "matches": [
+      {
+        "symbol": "HUBS",
+        "name": "HUBSPOT INC"
+      }
+    ]
+  },
+  {
+    "title": "ICICI Bank",
+    "slug": "icicibank",
+    "matches": [
+      {
+        "symbol": "IBN",
+        "name": "ICICI BANK LTD"
+      }
+    ]
+  },
+  {
+    "title": "ICON",
+    "slug": "icon",
+    "matches": [
+      {
+        "symbol": "ICLR",
+        "name": "ICON PLC"
+      }
+    ]
+  },
+  {
+    "title": "IndiGo",
+    "slug": "indigo",
+    "matches": [
+      {
+        "symbol": "INAC",
+        "name": "Indigo Acquisition Corp."
+      },
+      {
+        "symbol": "INACR",
+        "name": "Indigo Acquisition Corp."
+      },
+      {
+        "symbol": "INACU",
+        "name": "Indigo Acquisition Corp."
+      }
+    ]
+  },
+  {
+    "title": "Infosys",
+    "slug": "infosys",
+    "matches": [
+      {
+        "symbol": "INFY",
+        "name": "Infosys Ltd"
+      }
+    ]
+  },
+  {
+    "title": "INSPIRE",
+    "slug": "inspire",
+    "matches": [
+      {
+        "symbol": "INSP",
+        "name": "Inspire Medical Systems, Inc."
+      },
+      {
+        "symbol": "INSE",
+        "name": "Inspired Entertainment, Inc."
+      },
+      {
+        "symbol": "NSPR",
+        "name": "InspireMD, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Intel",
+    "slug": "intel",
+    "matches": [
+      {
+        "symbol": "INTC",
+        "name": "INTEL CORP"
+      }
+    ]
+  },
+  {
+    "title": "Intuit",
+    "slug": "intuit",
+    "matches": [
+      {
+        "symbol": "ISRG",
+        "name": "INTUITIVE SURGICAL INC"
+      },
+      {
+        "symbol": "INTU",
+        "name": "INTUIT INC."
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc."
+      }
+    ]
+  },
+  {
+    "title": "JetBlue",
+    "slug": "jetblue",
+    "matches": [
+      {
+        "symbol": "JBLU",
+        "name": "JETBLUE AIRWAYS CORP"
+      }
+    ]
+  },
+  {
+    "title": "JFrog",
+    "slug": "jfrog",
+    "matches": [
+      {
+        "symbol": "FROG",
+        "name": "JFrog Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Keystone",
+    "slug": "keystone",
+    "matches": [
+      {
+        "symbol": "KEYY",
+        "name": "Keystone Acquisition Corp."
+      },
+      {
+        "symbol": "KEYYU",
+        "name": "Keystone Acquisition Corp."
+      },
+      {
+        "symbol": "KEYYW",
+        "name": "Keystone Acquisition Corp."
+      }
+    ]
+  },
+  {
+    "title": "Kirby",
+    "slug": "kirby",
+    "matches": [
+      {
+        "symbol": "KEX",
+        "name": "KIRBY CORP"
+      }
+    ]
+  },
+  {
+    "title": "Klarna",
+    "slug": "klarna",
+    "matches": [
+      {
+        "symbol": "KLAR",
+        "name": "Klarna Group plc"
+      }
+    ]
+  },
+  {
+    "title": "Launchpad",
+    "slug": "launchpad",
+    "matches": [
+      {
+        "symbol": "LPCV",
+        "name": "Launchpad Cadenza Acquisition Corp I"
+      },
+      {
+        "symbol": "LPCVU",
+        "name": "Launchpad Cadenza Acquisition Corp I"
+      },
+      {
+        "symbol": "LPCVW",
+        "name": "Launchpad Cadenza Acquisition Corp I"
+      }
+    ]
+  },
+  {
+    "title": "Livewire",
+    "slug": "livewire",
+    "matches": [
+      {
+        "symbol": "LVWR",
+        "name": "LiveWire Group, Inc."
+      },
+      {
+        "symbol": "LVWR-WT",
+        "name": "LiveWire Group, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Lucid",
+    "slug": "lucid",
+    "matches": [
+      {
+        "symbol": "LCID",
+        "name": "Lucid Group, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Lyft",
+    "slug": "lyft",
+    "matches": [
+      {
+        "symbol": "LYFT",
+        "name": "Lyft, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Macy's",
+    "slug": "macys",
+    "matches": [
+      {
+        "symbol": "M",
+        "name": "Macy's, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Marriott",
+    "slug": "marriott",
+    "matches": [
+      {
+        "symbol": "MAR",
+        "name": "MARRIOTT INTERNATIONAL INC /MD/"
+      },
+      {
+        "symbol": "VAC",
+        "name": "MARRIOTT VACATIONS WORLDWIDE Corp"
+      }
+    ]
+  },
+  {
+    "title": "MasterCard",
+    "slug": "mastercard",
+    "matches": [
+      {
+        "symbol": "MA",
+        "name": "Mastercard Inc"
+      }
+    ]
+  },
+  {
+    "title": "Matrix",
+    "slug": "matrix",
+    "matches": [
+      {
+        "symbol": "MTRX",
+        "name": "MATRIX SERVICE CO"
+      }
+    ]
+  },
+  {
+    "title": "McDonald's",
+    "slug": "mcdonalds",
+    "matches": [
+      {
+        "symbol": "MCD",
+        "name": "MCDONALDS CORP"
+      }
+    ]
+  },
+  {
+    "title": "Merck",
+    "slug": "merck",
+    "matches": [
+      {
+        "symbol": "MRK",
+        "name": "Merck & Co., Inc."
+      }
+    ]
+  },
+  {
+    "title": "Mitsubishi",
+    "slug": "mitsubishi",
+    "matches": [
+      {
+        "symbol": "MUFG",
+        "name": "MITSUBISHI UFJ FINANCIAL GROUP INC"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB",
+    "slug": "mongodb",
+    "matches": [
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Monster",
+    "slug": "monster",
+    "matches": [
+      {
+        "symbol": "MNST",
+        "name": "Monster Beverage Corp"
+      }
+    ]
+  },
+  {
+    "title": "Motorola",
+    "slug": "motorola",
+    "matches": [
+      {
+        "symbol": "MSI",
+        "name": "Motorola Solutions, Inc."
+      }
+    ]
+  },
+  {
+    "title": "National Grid",
+    "slug": "nationalgrid",
+    "matches": [
+      {
+        "symbol": "NGG",
+        "name": "NATIONAL GRID PLC"
+      }
+    ]
+  },
+  {
+    "title": "Neptune",
+    "slug": "neptune",
+    "matches": [
+      {
+        "symbol": "NP",
+        "name": "Neptune Insurance Holdings Inc."
+      }
+    ]
+  },
+  {
+    "title": "NetApp",
+    "slug": "netapp",
+    "matches": [
+      {
+        "symbol": "NTAP",
+        "name": "NetApp, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Netflix",
+    "slug": "netflix",
+    "matches": [
+      {
+        "symbol": "NFLX",
+        "name": "NETFLIX INC"
+      }
+    ]
+  },
+  {
+    "title": "NETGEAR",
+    "slug": "netgear",
+    "matches": [
+      {
+        "symbol": "NTGR",
+        "name": "NETGEAR, INC."
+      }
+    ]
+  },
+  {
+    "title": "New York Times",
+    "slug": "newyorktimes",
+    "matches": [
+      {
+        "symbol": "NYT",
+        "name": "NEW YORK TIMES CO"
+      }
+    ]
+  },
+  {
+    "title": "Newegg",
+    "slug": "newegg",
+    "matches": [
+      {
+        "symbol": "NEGG",
+        "name": "Newegg Commerce, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Nextdoor",
+    "slug": "nextdoor",
+    "matches": [
+      {
+        "symbol": "NXDR",
+        "name": "Nextdoor Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Nike",
+    "slug": "nike",
+    "matches": [
+      {
+        "symbol": "NKE",
+        "name": "NIKE, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Nokia",
+    "slug": "nokia",
+    "matches": [
+      {
+        "symbol": "NOK",
+        "name": "NOKIA CORP"
+      }
+    ]
+  },
+  {
+    "title": "Norwegian",
+    "slug": "norwegian",
+    "matches": [
+      {
+        "symbol": "NCLH",
+        "name": "Norwegian Cruise Line Holdings Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Nutanix",
+    "slug": "nutanix",
+    "matches": [
+      {
+        "symbol": "NTNX",
+        "name": "Nutanix, Inc."
+      }
+    ]
+  },
+  {
+    "title": "NVIDIA",
+    "slug": "nvidia",
+    "matches": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA CORP"
+      }
+    ]
+  },
+  {
+    "title": "O'Reilly",
+    "slug": "oreilly",
+    "matches": [
+      {
+        "symbol": "ORLY",
+        "name": "O REILLY AUTOMOTIVE INC"
+      }
+    ]
+  },
+  {
+    "title": "Obsidian",
+    "slug": "obsidian",
+    "matches": [
+      {
+        "symbol": "OBX",
+        "name": "Obsidian Therapeutics, Inc."
+      },
+      {
+        "symbol": "OBE",
+        "name": "OBSIDIAN ENERGY LTD."
+      }
+    ]
+  },
+  {
+    "title": "Octave",
+    "slug": "octave",
+    "matches": [
+      {
+        "symbol": "OCTV",
+        "name": "Octave Intelligence plc"
+      },
+      {
+        "symbol": "OSG",
+        "name": "OCTAVE SPECIALTY GROUP INC"
+      }
+    ]
+  },
+  {
+    "title": "Okta",
+    "slug": "okta",
+    "matches": [
+      {
+        "symbol": "OKTA",
+        "name": "Okta, Inc."
+      }
+    ]
+  },
+  {
+    "title": "OpenText",
+    "slug": "opentext",
+    "matches": [
+      {
+        "symbol": "OTEX",
+        "name": "OPEN TEXT CORP"
+      }
+    ]
+  },
+  {
+    "title": "Opera",
+    "slug": "opera",
+    "matches": [
+      {
+        "symbol": "OPRA",
+        "name": "Opera Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Orange",
+    "slug": "orange",
+    "matches": [
+      {
+        "symbol": "OBT",
+        "name": "Orange County Bancorp, Inc. /DE/"
+      },
+      {
+        "symbol": "ORKT",
+        "name": "ORANGEKLOUD TECHNOLOGY INC."
+      }
+    ]
+  },
+  {
+    "title": "Origin",
+    "slug": "origin",
+    "matches": [
+      {
+        "symbol": "OBK",
+        "name": "Origin Bancorp, Inc."
+      },
+      {
+        "symbol": "ORIQ",
+        "name": "Origin Investment Corp I"
+      },
+      {
+        "symbol": "SEED",
+        "name": "Origin Agritech LTD"
+      },
+      {
+        "symbol": "ORIQU",
+        "name": "Origin Investment Corp I"
+      },
+      {
+        "symbol": "ORIQW",
+        "name": "Origin Investment Corp I"
+      }
+    ]
+  },
+  {
+    "title": "Oshkosh",
+    "slug": "oshkosh",
+    "matches": [
+      {
+        "symbol": "OSK",
+        "name": "OSHKOSH CORP"
+      }
+    ]
+  },
+  {
+    "title": "PagerDuty",
+    "slug": "pagerduty",
+    "matches": [
+      {
+        "symbol": "PD",
+        "name": "PagerDuty, Inc."
+      }
+    ]
+  },
+  {
+    "title": "PagSeguro",
+    "slug": "pagseguro",
+    "matches": [
+      {
+        "symbol": "PAGS",
+        "name": "PagSeguro Digital Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Palantir",
+    "slug": "palantir",
+    "matches": [
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc."
+      }
+    ]
+  },
+  {
+    "title": "Palo Alto Networks",
+    "slug": "paloaltonetworks",
+    "matches": [
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks Inc"
+      }
+    ]
+  },
+  {
+    "title": "Paramount+",
+    "slug": "paramountplus",
+    "matches": [
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corp"
+      },
+      {
+        "symbol": "PZG",
+        "name": "Paramount Gold Nevada Corp."
+      }
+    ]
+  },
+  {
+    "title": "Paychex",
+    "slug": "paychex",
+    "matches": [
+      {
+        "symbol": "PAYX",
+        "name": "PAYCHEX INC"
+      }
+    ]
+  },
+  {
+    "title": "Payoneer",
+    "slug": "payoneer",
+    "matches": [
+      {
+        "symbol": "PAYO",
+        "name": "Payoneer Global Inc."
+      }
+    ]
+  },
+  {
+    "title": "PayPal",
+    "slug": "paypal",
+    "matches": [
+      {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Paysafe",
+    "slug": "paysafe",
+    "matches": [
+      {
+        "symbol": "PSFE",
+        "name": "Paysafe Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Pearson",
+    "slug": "pearson",
+    "matches": [
+      {
+        "symbol": "PSO",
+        "name": "PEARSON PLC"
+      }
+    ]
+  },
+  {
+    "title": "Pelican",
+    "slug": "pelican",
+    "matches": [
+      {
+        "symbol": "PLCI",
+        "name": "Pelican Acquisition II Corp"
+      },
+      {
+        "symbol": "PLCIR",
+        "name": "Pelican Acquisition II Corp"
+      },
+      {
+        "symbol": "PLCIU",
+        "name": "Pelican Acquisition II Corp"
+      }
+    ]
+  },
+  {
+    "title": "Peloton",
+    "slug": "peloton",
+    "matches": [
+      {
+        "symbol": "PTON",
+        "name": "PELOTON INTERACTIVE, INC."
+      }
+    ]
+  },
+  {
+    "title": "Pinterest",
+    "slug": "pinterest",
+    "matches": [
+      {
+        "symbol": "PINS",
+        "name": "PINTEREST, INC."
+      }
+    ]
+  },
+  {
+    "title": "Planet",
+    "slug": "planet",
+    "matches": [
+      {
+        "symbol": "PL",
+        "name": "Planet Labs PBC"
+      },
+      {
+        "symbol": "PLNT",
+        "name": "Planet Fitness, Inc."
+      },
+      {
+        "symbol": "YIBO",
+        "name": "Planet Image International Ltd"
+      },
+      {
+        "symbol": "PLAG",
+        "name": "Planet Green Holdings Corp."
+      }
+    ]
+  },
+  {
+    "title": "Polestar",
+    "slug": "polestar",
+    "matches": [
+      {
+        "symbol": "PSNY",
+        "name": "Polestar Automotive Holding UK PLC"
+      },
+      {
+        "symbol": "PSNYW",
+        "name": "Polestar Automotive Holding UK PLC"
+      }
+    ]
+  },
+  {
+    "title": "POWERS",
+    "slug": "powers",
+    "matches": [
+      {
+        "symbol": "PSIX",
+        "name": "POWER SOLUTIONS INTERNATIONAL, INC."
+      }
+    ]
+  },
+  {
+    "title": "Progress",
+    "slug": "progress",
+    "matches": [
+      {
+        "symbol": "PGR",
+        "name": "PROGRESSIVE CORP/OH/"
+      },
+      {
+        "symbol": "PRGS",
+        "name": "PROGRESS SOFTWARE CORP /MA"
+      }
+    ]
+  },
+  {
+    "title": "Qualcomm",
+    "slug": "qualcomm",
+    "matches": [
+      {
+        "symbol": "QCOM",
+        "name": "QUALCOMM INC/DE"
+      }
+    ]
+  },
+  {
+    "title": "Qualys",
+    "slug": "qualys",
+    "matches": [
+      {
+        "symbol": "QLYS",
+        "name": "QUALYS, INC."
+      }
+    ]
+  },
+  {
+    "title": "Quasar",
+    "slug": "quasar",
+    "matches": [
+      {
+        "symbol": "QRED",
+        "name": "QuasarEdge Acquisition Corp"
+      },
+      {
+        "symbol": "QRED-RI",
+        "name": "QuasarEdge Acquisition Corp"
+      },
+      {
+        "symbol": "QRED-UN",
+        "name": "QuasarEdge Acquisition Corp"
+      }
+    ]
+  },
+  {
+    "title": "Reddit",
+    "slug": "reddit",
+    "matches": [
+      {
+        "symbol": "RDDT",
+        "name": "Reddit, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Revolut",
+    "slug": "revolut",
+    "matches": [
+      {
+        "symbol": "RVMD",
+        "name": "Revolution Medicines, Inc."
+      },
+      {
+        "symbol": "RVMDW",
+        "name": "Revolution Medicines, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Robinhood",
+    "slug": "robinhood",
+    "matches": [
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets, Inc."
+      },
+      {
+        "symbol": "RVI",
+        "name": "Robinhood Ventures Fund I"
+      },
+      {
+        "symbol": "RVII",
+        "name": "Robinhood Ventures Fund II"
+      }
+    ]
+  },
+  {
+    "title": "Roblox",
+    "slug": "roblox",
+    "matches": [
+      {
+        "symbol": "RBLX",
+        "name": "Roblox Corp"
+      }
+    ]
+  },
+  {
+    "title": "Rocket",
+    "slug": "rocket",
+    "matches": [
+      {
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corp"
+      },
+      {
+        "symbol": "RKT",
+        "name": "Rocket Companies, Inc."
+      },
+      {
+        "symbol": "RCKT",
+        "name": "ROCKET PHARMACEUTICALS, INC."
+      },
+      {
+        "symbol": "RKTO",
+        "name": "Rocket One Inc."
+      }
+    ]
+  },
+  {
+    "title": "Rockwell Automation",
+    "slug": "rockwellautomation",
+    "matches": [
+      {
+        "symbol": "ROK",
+        "name": "ROCKWELL AUTOMATION, INC"
+      }
+    ]
+  },
+  {
+    "title": "Roku",
+    "slug": "roku",
+    "matches": [
+      {
+        "symbol": "ROKU",
+        "name": "ROKU, INC"
+      }
+    ]
+  },
+  {
+    "title": "ROOT",
+    "slug": "root",
+    "matches": [
+      {
+        "symbol": "ROOT",
+        "name": "Root, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Ryanair",
+    "slug": "ryanair",
+    "matches": [
+      {
+        "symbol": "RYAAY",
+        "name": "RYANAIR HOLDINGS PLC"
+      }
+    ]
+  },
+  {
+    "title": "Seagate",
+    "slug": "seagate",
+    "matches": [
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings plc"
+      }
+    ]
+  },
+  {
+    "title": "Shell",
+    "slug": "shell",
+    "matches": [
+      {
+        "symbol": "SHEL",
+        "name": "Shell plc"
+      }
+    ]
+  },
+  {
+    "title": "Shopify",
+    "slug": "shopify",
+    "matches": [
+      {
+        "symbol": "SHOP",
+        "name": "SHOPIFY INC."
+      }
+    ]
+  },
+  {
+    "title": "Similarweb",
+    "slug": "similarweb",
+    "matches": [
+      {
+        "symbol": "SMWB",
+        "name": "SIMILARWEB LTD."
+      }
+    ]
+  },
+  {
+    "title": "Snowflake",
+    "slug": "snowflake",
+    "matches": [
+      {
+        "symbol": "SNOW",
+        "name": "Snowflake Inc."
+      }
+    ]
+  },
+  {
+    "title": "Socket",
+    "slug": "socket",
+    "matches": [
+      {
+        "symbol": "SCKT",
+        "name": "SOCKET MOBILE, INC."
+      }
+    ]
+  },
+  {
+    "title": "Solana",
+    "slug": "solana",
+    "matches": [
+      {
+        "symbol": "HSDT",
+        "name": "Solana Co"
+      }
+    ]
+  },
+  {
+    "title": "Sonos",
+    "slug": "sonos",
+    "matches": [
+      {
+        "symbol": "SONO",
+        "name": "Sonos Inc"
+      }
+    ]
+  },
+  {
+    "title": "Sony",
+    "slug": "sony",
+    "matches": [
+      {
+        "symbol": "SONY",
+        "name": "Sony Group Corp"
+      }
+    ]
+  },
+  {
+    "title": "Southwest Airlines",
+    "slug": "southwestairlines",
+    "matches": [
+      {
+        "symbol": "LUV",
+        "name": "SOUTHWEST AIRLINES CO"
+      }
+    ]
+  },
+  {
+    "title": "Spectrum",
+    "slug": "spectrum",
+    "matches": [
+      {
+        "symbol": "SPB",
+        "name": "Spectrum Brands Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Spotify",
+    "slug": "spotify",
+    "matches": [
+      {
+        "symbol": "SPOT",
+        "name": "Spotify Technology S.A."
+      }
+    ]
+  },
+  {
+    "title": "Spring",
+    "slug": "spring",
+    "matches": [
+      {
+        "symbol": "SVIV",
+        "name": "Spring Valley Acquisition Corp. IV"
+      },
+      {
+        "symbol": "SPHL",
+        "name": "SPRINGVIEW HOLDINGS LTD"
+      },
+      {
+        "symbol": "SVIVU",
+        "name": "Spring Valley Acquisition Corp. IV"
+      },
+      {
+        "symbol": "SVIVW",
+        "name": "Spring Valley Acquisition Corp. IV"
+      }
+    ]
+  },
+  {
+    "title": "Spring",
+    "slug": "spring_creators",
+    "matches": [
+      {
+        "symbol": "SVIV",
+        "name": "Spring Valley Acquisition Corp. IV"
+      },
+      {
+        "symbol": "SPHL",
+        "name": "SPRINGVIEW HOLDINGS LTD"
+      },
+      {
+        "symbol": "SVIVU",
+        "name": "Spring Valley Acquisition Corp. IV"
+      },
+      {
+        "symbol": "SVIVW",
+        "name": "Spring Valley Acquisition Corp. IV"
+      }
+    ]
+  },
+  {
+    "title": "Starbucks",
+    "slug": "starbucks",
+    "matches": [
+      {
+        "symbol": "SBUX",
+        "name": "STARBUCKS CORP"
+      }
+    ]
+  },
+  {
+    "title": "Stellar",
+    "slug": "stellar",
+    "matches": [
+      {
+        "symbol": "SVCC",
+        "name": "Stellar V Capital Corp. (Cayman Islands)"
+      },
+      {
+        "symbol": "SVCCU",
+        "name": "Stellar V Capital Corp. (Cayman Islands)"
+      },
+      {
+        "symbol": "SVCCW",
+        "name": "Stellar V Capital Corp. (Cayman Islands)"
+      }
+    ]
+  },
+  {
+    "title": "STMicroelectronics",
+    "slug": "stmicroelectronics",
+    "matches": [
+      {
+        "symbol": "STM",
+        "name": "STMicroelectronics N.V."
+      }
+    ]
+  },
+  {
+    "title": "Stryker",
+    "slug": "stryker",
+    "matches": [
+      {
+        "symbol": "SYK",
+        "name": "STRYKER CORP"
+      }
+    ]
+  },
+  {
+    "title": "StubHub",
+    "slug": "stubhub",
+    "matches": [
+      {
+        "symbol": "STUB",
+        "name": "StubHub Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Sui",
+    "slug": "sui",
+    "matches": [
+      {
+        "symbol": "SUIG",
+        "name": "SUI Group Holdings Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Sunrise",
+    "slug": "sunrise",
+    "matches": [
+      {
+        "symbol": "SUNS",
+        "name": "Sunrise Realty Trust, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Supermicro",
+    "slug": "supermicro",
+    "matches": [
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc."
+      },
+      {
+        "symbol": "SMCIP",
+        "name": "Super Micro Computer, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Take-Two Interactive Software",
+    "slug": "taketwointeractivesoftware",
+    "matches": [
+      {
+        "symbol": "TTWO",
+        "name": "TAKE TWO INTERACTIVE SOFTWARE INC"
+      }
+    ]
+  },
+  {
+    "title": "Target",
+    "slug": "target",
+    "matches": [
+      {
+        "symbol": "TGT",
+        "name": "TARGET CORP"
+      },
+      {
+        "symbol": "TH",
+        "name": "Target Hospitality Corp."
+      }
+    ]
+  },
+  {
+    "title": "Teradata",
+    "slug": "teradata",
+    "matches": [
+      {
+        "symbol": "TDC",
+        "name": "TERADATA CORP /DE/"
+      }
+    ]
+  },
+  {
+    "title": "Tesla",
+    "slug": "tesla",
+    "matches": [
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Toyota",
+    "slug": "toyota",
+    "matches": [
+      {
+        "symbol": "TM",
+        "name": "TOYOTA MOTOR CORP/"
+      }
+    ]
+  },
+  {
+    "title": "Triller",
+    "slug": "triller",
+    "matches": [
+      {
+        "symbol": "ILLR",
+        "name": "Triller Group Inc."
+      },
+      {
+        "symbol": "ILLRW",
+        "name": "Triller Group Inc."
+      }
+    ]
+  },
+  {
+    "title": "Trimble",
+    "slug": "trimble",
+    "matches": [
+      {
+        "symbol": "TRMB",
+        "name": "TRIMBLE INC."
+      }
+    ]
+  },
+  {
+    "title": "Trip.com",
+    "slug": "tripdotcom",
+    "matches": [
+      {
+        "symbol": "TCOM",
+        "name": "Trip.com Group Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Tripadvisor",
+    "slug": "tripadvisor",
+    "matches": [
+      {
+        "symbol": "TRIP",
+        "name": "TripAdvisor, Inc."
+      }
+    ]
+  },
+  {
+    "title": "trivago",
+    "slug": "trivago",
+    "matches": [
+      {
+        "symbol": "TRVG",
+        "name": "trivago N.V."
+      }
+    ]
+  },
+  {
+    "title": "Twenty",
+    "slug": "twenty",
+    "matches": [
+      {
+        "symbol": "XXI",
+        "name": "Twenty One Capital, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Ubiquiti",
+    "slug": "ubiquiti",
+    "matches": [
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc."
+      }
+    ]
+  },
+  {
+    "title": "UiPath",
+    "slug": "uipath",
+    "matches": [
+      {
+        "symbol": "PATH",
+        "name": "UiPath, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Under Armour",
+    "slug": "underarmour",
+    "matches": [
+      {
+        "symbol": "UAA",
+        "name": "Under Armour, Inc."
+      },
+      {
+        "symbol": "UA",
+        "name": "Under Armour, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Unilever",
+    "slug": "unilever",
+    "matches": [
+      {
+        "symbol": "UL",
+        "name": "UNILEVER PLC"
+      }
+    ]
+  },
+  {
+    "title": "United Airlines",
+    "slug": "unitedairlines",
+    "matches": [
+      {
+        "symbol": "UAL",
+        "name": "United Airlines Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Upwork",
+    "slug": "upwork",
+    "matches": [
+      {
+        "symbol": "UPWK",
+        "name": "UPWORK, INC"
+      }
+    ]
+  },
+  {
+    "title": "Velocity",
+    "slug": "velocity",
+    "matches": [
+      {
+        "symbol": "VEL",
+        "name": "Velocity Financial, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Verizon",
+    "slug": "verizon",
+    "matches": [
+      {
+        "symbol": "VZ",
+        "name": "VERIZON COMMUNICATIONS INC"
+      }
+    ]
+  },
+  {
+    "title": "Virgin",
+    "slug": "virgin",
+    "matches": [
+      {
+        "symbol": "SPCE",
+        "name": "Virgin Galactic Holdings, Inc"
+      },
+      {
+        "symbol": "VABK",
+        "name": "Virginia National Bankshares Corp"
+      }
+    ]
+  },
+  {
+    "title": "Visa",
+    "slug": "visa",
+    "matches": [
+      {
+        "symbol": "V",
+        "name": "VISA INC."
+      }
+    ]
+  },
+  {
+    "title": "Vitess",
+    "slug": "vitess",
+    "matches": [
+      {
+        "symbol": "VTS",
+        "name": "Vitesse Energy, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Vodafone",
+    "slug": "vodafone",
+    "matches": [
+      {
+        "symbol": "VOD",
+        "name": "VODAFONE GROUP PUBLIC LTD CO"
+      }
+    ]
+  },
+  {
+    "title": "VTEX",
+    "slug": "vtex",
+    "matches": [
+      {
+        "symbol": "VTEX",
+        "name": "VTEX"
+      }
+    ]
+  },
+  {
+    "title": "WEBTOON",
+    "slug": "webtoon",
+    "matches": [
+      {
+        "symbol": "WBTN",
+        "name": "WEBTOON Entertainment Inc."
+      }
+    ]
+  },
+  {
+    "title": "Wells Fargo",
+    "slug": "wellsfargo",
+    "matches": [
+      {
+        "symbol": "WFC",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PY",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PL",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PC",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PA",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PD",
+        "name": "WELLS FARGO & COMPANY/MN"
+      },
+      {
+        "symbol": "WFC-PZ",
+        "name": "WELLS FARGO & COMPANY/MN"
+      }
+    ]
+  },
+  {
+    "title": "Western Union",
+    "slug": "westernunion",
+    "matches": [
+      {
+        "symbol": "WU",
+        "name": "Western Union CO"
+      }
+    ]
+  },
+  {
+    "title": "Wipro",
+    "slug": "wipro",
+    "matches": [
+      {
+        "symbol": "WIT",
+        "name": "WIPRO LTD"
+      }
+    ]
+  },
+  {
+    "title": "Wise",
+    "slug": "wise",
+    "matches": [
+      {
+        "symbol": "WSE",
+        "name": "Wise Group plc"
+      }
+    ]
+  },
+  {
+    "title": "Yelp",
+    "slug": "yelp",
+    "matches": [
+      {
+        "symbol": "YELP",
+        "name": "YELP INC"
+      }
+    ]
+  },
+  {
+    "title": "Yeti",
+    "slug": "yeti",
+    "matches": [
+      {
+        "symbol": "YETI",
+        "name": "YETI Holdings, Inc."
+      }
+    ]
+  },
+  {
+    "title": "Zebra Technologies",
+    "slug": "zebratechnologies",
+    "matches": [
+      {
+        "symbol": "ZBRA",
+        "name": "ZEBRA TECHNOLOGIES CORP"
+      }
+    ]
+  },
+  {
+    "title": "Zhihu",
+    "slug": "zhihu",
+    "matches": [
+      {
+        "symbol": "ZH",
+        "name": "Zhihu Inc."
+      }
+    ]
+  },
+  {
+    "title": "Zillow",
+    "slug": "zillow",
+    "matches": [
+      {
+        "symbol": "ZG",
+        "name": "ZILLOW GROUP, INC."
+      },
+      {
+        "symbol": "Z",
+        "name": "ZILLOW GROUP, INC."
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+.hero-art {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  background: #120d1d;
+}
+
+.banner-visible .hero-art {
+  opacity: 1;
+  transition: opacity 1.3s ease-in-out;
+}
+
+.banner-visible .brand.light {
+  transition: color 80ms ease 620ms;
+}
+
+.hero-field {
+  position: absolute;
+  inset: -18px;
+  background: #171021;
+  filter: blur(var(--hero-scroll-blur, 0px));
+}
+
+.hero-liquid,
+.hero-field::after {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-liquid { display: block; }
+
+/* Keep light streams visible behind the letters in every phase. */
+.hero-field::after {
+  content: '';
+  background: linear-gradient(180deg, #190c2b96 9%, #190c2b96 37%, transparent 88%);
+  mask-image: linear-gradient(90deg, transparent, black 30%, black 70%, transparent);
+}
+
+.liquid-still .hero-field {
+  background: #171021 url('assets/liquid-still.webp') center / cover;
+}
+.liquid-still .hero-liquid { display: none; }
+
+.hero-grain {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('assets/hero-grain.png') repeat;
+  mix-blend-mode: soft-light;
+  opacity: .18;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner-visible .hero-art { transition: none; }
+}

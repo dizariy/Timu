@@ -1,0 +1,35 @@
+{
+  "retrievedOn": "2026-10-06",
+  "files": [
+    {
+      "file": "sec-exchanges.json",
+      "bytes": 523582,
+      "sha256": "e0033204d27cbf7149023b2e94432b2c90735fe9c4743ae4f156fd82843bcb3c"
+    },
+    {
+      "file": "nasdaqlisted.txt",
+      "bytes": 349956,
+      "sha256": "a473d8c2e191cdab407a74becf58c869e55c96ee56aa920906f3f8707866d8ec"
+    },
+    {
+      "file": "otherlisted.txt",
+      "bytes": 542387,
+      "sha256": "f3eb9bf9e2070546c0730f4587c20cbbd9f0a0cd5e39866f645d9c11b361bbde"
+    },
+    {
+      "file": "moex-tqbr.json",
+      "bytes": 54716,
+      "sha256": "9071cbb2203ccdf6a07526fbf9143ad9e5f7158c0e3660f4340dc6baae4b7b67"
+    },
+    {
+      "file": "simple-icons-data.json",
+      "bytes": 456481,
+      "sha256": "cc4a07c5603f7feccab42ee2427a7d9da2f5962031885c490c81c2a1348c4473"
+    },
+    {
+      "file": "simple-icons-v11-data.json",
+      "bytes": 576874,
+      "sha256": "6a642652adacaead1b98d1eb7e489b8b272f34854bde7899acc039f1468e906a"
+    }
+  ]
+}

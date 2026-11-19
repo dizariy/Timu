@@ -1,0 +1,49 @@
+.bank-logo {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  align-self: center;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  padding: 3px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f6f3fc;
+  vertical-align: middle;
+}
+
+.bank-logo img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.bank-logo[data-bank="alfabank"] {
+  background: #ef3124;
+}
+
+.bank-logo[data-bank="alfabank"] img {
+  filter: brightness(0) invert(1);
+}
+
+.bank-logo-fallback {
+  color: #6549a2;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.currency-bank-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.currency-bank-name .bank-logo {
+  inline-size: 22px;
+  block-size: 22px;
+  border-radius: 6px;
+  padding: 2px;
+  margin-inline-end: 6px;
+}

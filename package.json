@@ -1,0 +1,10 @@
+{
+  "name": "timu-home",
+  "version": "0.8.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node check-analytics.mjs && node check-hero.mjs && node check-news-ui.mjs && node check-news-server.mjs && node check-commodities.mjs && node check-translations.mjs && node check-revisions-2.mjs && node check-bullion-by.mjs && node check-bullion-ru.mjs && node check-revisions-4.mjs",
+    "start": "node server.mjs"
+  }
+}

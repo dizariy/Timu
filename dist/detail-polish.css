@@ -1,0 +1,50 @@
+::selection {
+  background: var(--selection-purple, #6840ad);
+  color: #fff;
+}
+
+.news-card time.pill.date {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Keep the controls aligned while frost covers the top edge of the sheet. */
+.dialog-scroll > .dialog-top {
+  --dialog-gutter: 30px;
+  margin-inline: calc(-1 * var(--dialog-gutter));
+  padding-inline: var(--dialog-gutter);
+  background: transparent;
+}
+
+.dialog-scroll > .dialog-top::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 28px;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(to bottom, #f3f3f3f7 25%, #f3f3f300 100%);
+}
+
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .dialog-scroll > .dialog-top::before {
+    background: #f3f3f3b8;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    -webkit-mask-image: linear-gradient(to bottom, #000 35%, transparent);
+    mask-image: linear-gradient(to bottom, #000 35%, transparent);
+  }
+}
+
+.dialog-scroll:focus {
+  outline: none;
+}
+
+#dialog-close:focus-visible {
+  outline: 2px solid var(--selection-purple, #6840ad);
+  outline-offset: 3px;
+}
+
+@media (max-width: 860px) {
+  .dialog-scroll > .dialog-top { --dialog-gutter: 22px; }
+}

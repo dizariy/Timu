@@ -1,0 +1,18 @@
+/* The price profile uses one dot size on a regular grid. */
+.chart-wrap .dot-price-chart{overflow:visible;stroke:none;outline:none;border-radius:10px}
+.chart-wrap .dot-price-chart .dot-grid{stroke:#dedede;stroke-width:1;stroke-dasharray:2 6;opacity:.75}
+.chart-wrap .dot-price-chart circle{stroke:none;pointer-events:none}
+.chart-wrap .dot-price-chart text{fill:#8c8c8c;stroke:none;font-size:9px}
+.chart-wrap .dot-price-chart .dot-marker{stroke:#9b71cf;stroke-opacity:.46;stroke-width:1;stroke-dasharray:2 4;pointer-events:none}
+.chart-wrap .dot-price-chart:focus-visible:not(.pointer-inspection){outline:2px solid #8054bd;outline-offset:2px}
+.chart-tooltip{margin-top:4px}
+.quote-row{display:block}
+.quote-main{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:14px}
+.quote-unit{font-size:15px;font-weight:500;letter-spacing:normal;color:#777}
+.quote-row .change{display:inline-flex;align-items:baseline;gap:5px;font-size:14px;font-weight:600;white-space:nowrap}
+.quote-row .change small{display:inline;margin:0;font-weight:400;color:inherit}
+.quote-row .change.positive,.metric .positive{color:#247443}
+.quote-row .change.negative,.metric .negative{color:#a7313b}
+@media (max-width: 480px) {
+  .chart-wrap .dot-price-chart text{font-size:14px}
+}

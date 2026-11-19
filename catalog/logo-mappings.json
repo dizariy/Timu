@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "ABT",
+    "name": "ABBOTT LABORATORIES",
+    "icon": "Abbott",
+    "slug": "abbott",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:Logo_Abbott_Laboratories.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/abbott.svg"
+  },
+  {
+    "id": "ABBV",
+    "name": "AbbVie Inc.",
+    "icon": "Abbvie",
+    "slug": "abbvie",
+    "brandSource": "https://www.abbvie.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/abbvie.svg"
+  },
+  {
+    "id": "ACN",
+    "name": "Accenture plc",
+    "icon": "Accenture",
+    "slug": "accenture",
+    "brandSource": "https://www.accenture.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/accenture.svg"
+  },
+  {
+    "id": "API",
+    "name": "Agora, Inc.",
+    "icon": "Agora",
+    "slug": "agora",
+    "brandSource": "https://github.com/AgoraIO/Docs-Source/blob/849872dd0496bada0a2dceecb3f79663e3b2d323/assets/images/others/agora-logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/agora.svg"
+  },
+  {
+    "id": "ABNB",
+    "name": "Airbnb, Inc.",
+    "icon": "Airbnb",
+    "slug": "airbnb",
+    "brandSource": "https://www.airbnb.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/airbnb.svg"
+  },
+  {
+    "id": "AKAM",
+    "name": "AKAMAI TECHNOLOGIES INC",
+    "icon": "Akamai",
+    "slug": "akamai",
+    "brandSource": "https://www.akamai.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/akamai.svg"
+  },
+  {
+    "id": "AAL",
+    "name": "American Airlines Group Inc.",
+    "icon": "American Airlines",
+    "slug": "americanairlines",
+    "brandSource": "https://news.aa.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/americanairlines.svg"
+  },
+  {
+    "id": "AXP",
+    "name": "AMERICAN EXPRESS CO",
+    "icon": "American Express",
+    "slug": "americanexpress",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/americanexpress.svg"
+  },
+  {
+    "id": "APPN",
+    "name": "APPIAN CORP",
+    "icon": "Appian",
+    "slug": "appian",
+    "brandSource": "https://appian.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/appian.svg"
+  },
+  {
+    "id": "AAPL",
+    "name": "Apple Inc.",
+    "icon": "Apple",
+    "slug": "apple",
+    "brandSource": "https://www.apple.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/apple.svg"
+  },
+  {
+    "id": "ASAN",
+    "name": "Asana, Inc.",
+    "icon": "Asana",
+    "slug": "asana",
+    "brandSource": "https://asana.com/brand",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/asana.svg"
+  },
+  {
+    "id": "T",
+    "name": "AT&T INC.",
+    "icon": "AT&T",
+    "slug": "atandt",
+    "brandSource": "https://www.att.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/atandt.svg"
+  },
+  {
+    "id": "TEAM",
+    "name": "Atlassian Corp",
+    "icon": "Atlassian",
+    "slug": "atlassian",
+    "brandSource": "https://atlassian.design/resources/logo-library",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/atlassian.svg"
+  },
+  {
+    "id": "ADSK",
+    "name": "Autodesk, Inc.",
+    "icon": "Autodesk",
+    "slug": "autodesk",
+    "brandSource": "https://brand.autodesk.com/brand-system/logo",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/autodesk.svg"
+  },
+  {
+    "id": "AZO",
+    "name": "AUTOZONE INC",
+    "icon": "AutoZone",
+    "slug": "autozone",
+    "brandSource": "https://www.autozone.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/autozone.svg"
+  },
+  {
+    "id": "BLZE",
+    "name": "Backblaze, Inc.",
+    "icon": "Backblaze",
+    "slug": "backblaze",
+    "brandSource": "https://www.backblaze.com/company/news.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/backblaze.svg"
+  },
+  {
+    "id": "BIDU",
+    "name": "Baidu, Inc.",
+    "icon": "Baidu",
+    "slug": "baidu",
+    "brandSource": "https://www.baidu.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/baidu.svg"
+  },
+  {
+    "id": "BAC",
+    "name": "BANK OF AMERICA CORP /DE/",
+    "icon": "Bank of America",
+    "slug": "bankofamerica",
+    "brandSource": "https://www.bankofamerica.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/bankofamerica.svg"
+  },
+  {
+    "id": "BCS",
+    "name": "BARCLAYS PLC",
+    "icon": "Barclays",
+    "slug": "barclays",
+    "brandSource": "https://home.barclays",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/barclays.svg"
+  },
+  {
+    "id": "BILI",
+    "name": "Bilibili Inc.",
+    "icon": "Bilibili",
+    "slug": "bilibili",
+    "brandSource": "https://www.bilibili.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/bilibili.svg"
+  },
+  {
+    "id": "BB",
+    "name": "BLACKBERRY Ltd",
+    "icon": "Blackberry",
+    "slug": "blackberry",
+    "brandSource": "https://www.blackberry.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/blackberry.svg"
+  },
+  {
+    "id": "BA",
+    "name": "BOEING CO",
+    "icon": "Boeing",
+    "slug": "boeing",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:Boeing_full_logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/boeing.svg"
+  },
+  {
+    "id": "BOX",
+    "name": "BOX INC",
+    "icon": "Box",
+    "slug": "box",
+    "brandSource": "https://www.box.com/en-gb/about-us/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/box.svg"
+  },
+  {
+    "id": "AVGO",
+    "name": "Broadcom Inc.",
+    "icon": "Broadcom",
+    "slug": "broadcom",
+    "brandSource": "https://www.broadcom.com/support",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/broadcom.svg"
+  },
+  {
+    "id": "BZFD",
+    "name": "BuzzFeed, Inc.",
+    "icon": "BuzzFeed",
+    "slug": "buzzfeed",
+    "brandSource": "https://www.buzzfeed.com/press/assets",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/buzzfeed.svg"
+  },
+  {
+    "id": "CAT",
+    "name": "CATERPILLAR INC",
+    "icon": "Caterpillar",
+    "slug": "caterpillar",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:Caterpillar_logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/caterpillar.svg"
+  },
+  {
+    "id": "CRCL",
+    "name": "Circle Internet Group, Inc.",
+    "icon": "Circle",
+    "slug": "circle",
+    "brandSource": "https://www.circle.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/circle.svg"
+  },
+  {
+    "id": "CLVT",
+    "name": "CLARIVATE PLC",
+    "icon": "Clarivate",
+    "slug": "clarivate",
+    "brandSource": "https://clarivate.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/clarivate.svg"
+  },
+  {
+    "id": "NET",
+    "name": "Cloudflare, Inc.",
+    "icon": "Cloudflare",
+    "slug": "cloudflare",
+    "brandSource": "https://www.cloudflare.com/logo/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/cloudflare.svg"
+  },
+  {
+    "id": "KO",
+    "name": "COCA COLA CO",
+    "icon": "Coca-Cola",
+    "slug": "cocacola",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:Coca-Cola_logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/cocacola.svg"
+  },
+  {
+    "id": "COIN",
+    "name": "Coinbase Global, Inc.",
+    "icon": "Coinbase",
+    "slug": "coinbase",
+    "brandSource": "https://www.coinbase.com/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/coinbase.svg"
+  },
+  {
+    "id": "CRSR",
+    "name": "Corsair Gaming, Inc.",
+    "icon": "Corsair",
+    "slug": "corsair",
+    "brandSource": "https://www.corsair.com/newsroom/company-logos",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/corsair.svg"
+  },
+  {
+    "id": "COUR",
+    "name": "Coursera, Inc.",
+    "icon": "Coursera",
+    "slug": "coursera",
+    "brandSource": "https://about.coursera.org/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/coursera.svg"
+  },
+  {
+    "id": "DDOG",
+    "name": "Datadog, Inc.",
+    "icon": "Datadog",
+    "slug": "datadog",
+    "brandSource": "https://www.datadoghq.com/about/resources",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/datadog.svg"
+  },
+  {
+    "id": "DB",
+    "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+    "icon": "Deutsche Bank",
+    "slug": "deutschebank",
+    "brandSource": "https://www.db.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/deutschebank.svg"
+  },
+  {
+    "id": "DOCN",
+    "name": "DigitalOcean Holdings, Inc.",
+    "icon": "DigitalOcean",
+    "slug": "digitalocean",
+    "brandSource": "https://www.digitalocean.com/press/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/digitalocean.svg"
+  },
+  {
+    "id": "DASH",
+    "name": "DoorDash, Inc.",
+    "icon": "DoorDash",
+    "slug": "doordash",
+    "brandSource": "https://www.doordash.com/about/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/doordash.svg"
+  },
+  {
+    "id": "DBX",
+    "name": "DROPBOX, INC.",
+    "icon": "Dropbox",
+    "slug": "dropbox",
+    "brandSource": "https://www.dropbox.com/branding",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/dropbox.svg"
+  },
+  {
+    "id": "DUOL",
+    "name": "Duolingo, Inc.",
+    "icon": "Duolingo",
+    "slug": "duolingo",
+    "brandSource": "https://design.duolingo.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/duolingo.svg"
+  },
+  {
+    "id": "DT",
+    "name": "Dynatrace, Inc.",
+    "icon": "Dynatrace",
+    "slug": "dynatrace",
+    "brandSource": "https://www.dynatrace.com/company/press-kit/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/dynatrace.svg"
+  },
+  {
+    "id": "EBAY",
+    "name": "EBAY INC",
+    "icon": "eBay",
+    "slug": "ebay",
+    "brandSource": "https://go.developer.ebay.com/logos",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/ebay.svg"
+  },
+  {
+    "id": "ESTC",
+    "name": "Elastic N.V.",
+    "icon": "Elastic",
+    "slug": "elastic",
+    "brandSource": "https://www.elastic.co/brand",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/elastic.svg"
+  },
+  {
+    "id": "ERIC",
+    "name": "ERICSSON LM TELEPHONE CO",
+    "icon": "Ericsson",
+    "slug": "ericsson",
+    "brandSource": "https://www.ericsson.com/en/newsroom/media-kits/logo",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/ericsson.svg"
+  },
+  {
+    "id": "ETSY",
+    "name": "ETSY INC",
+    "icon": "Etsy",
+    "slug": "etsy",
+    "brandSource": "https://www.etsy.com/uk/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/etsy.svg"
+  },
+  {
+    "id": "EXPE",
+    "name": "Expedia Group, Inc.",
+    "icon": "Expedia",
+    "slug": "expedia",
+    "brandSource": "https://brandfolder.com/portals/brand-expedia",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/expedia.svg"
+  },
+  {
+    "id": "EXFY",
+    "name": "Expensify, Inc.",
+    "icon": "Expensify",
+    "slug": "expensify",
+    "brandSource": "https://use.expensify.com/press-kit",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/expensify.svg"
+  },
+  {
+    "id": "FSLY",
+    "name": "Fastly, Inc.",
+    "icon": "Fastly",
+    "slug": "fastly",
+    "brandSource": "https://assets.fastly.com/style-guide/docs/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fastly.svg"
+  },
+  {
+    "id": "FDX",
+    "name": "FEDEX CORP",
+    "icon": "FedEx",
+    "slug": "fedex",
+    "brandSource": "https://newsroom.fedex.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fedex.svg"
+  },
+  {
+    "id": "RACE",
+    "name": "Ferrari N.V.",
+    "icon": "Ferrari N.V.",
+    "slug": "ferrarinv",
+    "brandSource": "https://corporate.ferrari.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/ferrarinv.svg"
+  },
+  {
+    "id": "FIG",
+    "name": "Figma, Inc.",
+    "icon": "Figma",
+    "slug": "figma",
+    "brandSource": "https://www.figma.com/using-the-figma-brand/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/figma.svg"
+  },
+  {
+    "id": "FVRR",
+    "name": "Fiverr International Ltd.",
+    "icon": "Fiverr",
+    "slug": "fiverr",
+    "brandSource": "https://www.fiverr.com/press-kit",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fiverr.svg"
+  },
+  {
+    "id": "FTNT",
+    "name": "Fortinet, Inc.",
+    "icon": "Fortinet",
+    "slug": "fortinet",
+    "brandSource": "https://www.fortinet.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fortinet.svg"
+  },
+  {
+    "id": "FOXA",
+    "name": "Fox Corp",
+    "icon": "FOX",
+    "slug": "fox",
+    "brandSource": "https://www.fox.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fox.svg"
+  },
+  {
+    "id": "FOX",
+    "name": "Fox Corp",
+    "icon": "FOX",
+    "slug": "fox",
+    "brandSource": "https://www.fox.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/fox.svg"
+  },
+  {
+    "id": "GRMN",
+    "name": "GARMIN LTD",
+    "icon": "Garmin",
+    "slug": "garmin",
+    "brandSource": "https://creative.garmin.com/styleguide/logo/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/garmin.svg"
+  },
+  {
+    "id": "GE",
+    "name": "GENERAL ELECTRIC CO",
+    "icon": "General Electric",
+    "slug": "generalelectric",
+    "brandSource": "https://www.ge.com/brand/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/generalelectric.svg"
+  },
+  {
+    "id": "GM",
+    "name": "General Motors Co",
+    "icon": "General Motors",
+    "slug": "generalmotors",
+    "brandSource": "https://www.gm.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/generalmotors.svg"
+  },
+  {
+    "id": "GTLB",
+    "name": "Gitlab Inc.",
+    "icon": "GitLab",
+    "slug": "gitlab",
+    "brandSource": "https://about.gitlab.com/press/press-kit/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/gitlab.svg"
+  },
+  {
+    "id": "GDDY",
+    "name": "GoDaddy Inc.",
+    "icon": "GoDaddy",
+    "slug": "godaddy",
+    "brandSource": "https://aboutus.godaddy.net/newsroom/media-resources/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/godaddy.svg"
+  },
+  {
+    "id": "GS",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "icon": "Goldman Sachs",
+    "slug": "goldmansachs",
+    "brandSource": "https://design.gs.com/brand/goldman-sachs-logo",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/goldmansachs.svg"
+  },
+  {
+    "id": "GRAB",
+    "name": "Grab Holdings Ltd",
+    "icon": "Grab",
+    "slug": "grab",
+    "brandSource": "https://en.wikipedia.org/wiki/File:Grab_(application)_logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/grab.svg"
+  },
+  {
+    "id": "GRPN",
+    "name": "Groupon, Inc.",
+    "icon": "Groupon",
+    "slug": "groupon",
+    "brandSource": "https://about.groupon.com/press/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/groupon.svg"
+  },
+  {
+    "id": "GSK",
+    "name": "GSK plc",
+    "icon": "GSK",
+    "slug": "gsk",
+    "brandSource": "https://www.gskbrandhub.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/gsk.svg"
+  },
+  {
+    "id": "HDB",
+    "name": "HDFC BANK LTD",
+    "icon": "HDFC Bank",
+    "slug": "hdfcbank",
+    "brandSource": "https://www.hdfcsales.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/hdfcbank.svg"
+  },
+  {
+    "id": "HLT",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "icon": "Hilton",
+    "slug": "hilton",
+    "brandSource": "https://www.hilton.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/hilton.svg"
+  },
+  {
+    "id": "HSBC",
+    "name": "HSBC HOLDINGS PLC",
+    "icon": "HSBC",
+    "slug": "hsbc",
+    "brandSource": "https://www.hsbc.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/hsbc.svg"
+  },
+  {
+    "id": "HUBS",
+    "name": "HUBSPOT INC",
+    "icon": "HubSpot",
+    "slug": "hubspot",
+    "brandSource": "https://www.hubspot.com/style-guide",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/hubspot.svg"
+  },
+  {
+    "id": "IBN",
+    "name": "ICICI BANK LTD",
+    "icon": "ICICI Bank",
+    "slug": "icicibank",
+    "brandSource": "https://www.icicibank.com/ms/aboutus/annual-reports/2022-23/icici/assets/images/home-page/logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/icicibank.svg"
+  },
+  {
+    "id": "INFY",
+    "name": "Infosys Ltd",
+    "icon": "Infosys",
+    "slug": "infosys",
+    "brandSource": "https://www.infosys.com/newsroom/journalist-resources/infosyslogo.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/infosys.svg"
+  },
+  {
+    "id": "INTC",
+    "name": "INTEL CORP",
+    "icon": "Intel",
+    "slug": "intel",
+    "brandSource": "https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/intel.svg"
+  },
+  {
+    "id": "INTU",
+    "name": "INTUIT INC.",
+    "icon": "Intuit",
+    "slug": "intuit",
+    "brandSource": "https://www.intuit.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/intuit.svg"
+  },
+  {
+    "id": "JBLU",
+    "name": "JETBLUE AIRWAYS CORP",
+    "icon": "JetBlue",
+    "slug": "jetblue",
+    "brandSource": "https://www.jetblue.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/jetblue.svg"
+  },
+  {
+    "id": "FROG",
+    "name": "JFrog Ltd",
+    "icon": "JFrog",
+    "slug": "jfrog",
+    "brandSource": "https://jfrog.com/brand-guidelines",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/jfrog.svg"
+  },
+  {
+    "id": "KLAR",
+    "name": "Klarna Group plc",
+    "icon": "Klarna",
+    "slug": "klarna",
+    "brandSource": "https://klarna.design",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/klarna.svg"
+  },
+  {
+    "id": "LYFT",
+    "name": "Lyft, Inc.",
+    "icon": "Lyft",
+    "slug": "lyft",
+    "brandSource": "https://www.lyft.com/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/lyft.svg"
+  },
+  {
+    "id": "M",
+    "name": "Macy's, Inc.",
+    "icon": "Macy's",
+    "slug": "macys",
+    "brandSource": "https://www.macysinc.com/news-media/media-assets",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/macys.svg"
+  },
+  {
+    "id": "MAR",
+    "name": "MARRIOTT INTERNATIONAL INC /MD/",
+    "icon": "Marriott",
+    "slug": "marriott",
+    "brandSource": "https://marriott-hotels.marriott.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/marriott.svg"
+  },
+  {
+    "id": "MA",
+    "name": "Mastercard Inc",
+    "icon": "MasterCard",
+    "slug": "mastercard",
+    "brandSource": "https://www.mastercard.com/brandcenter/us/en/download-artwork.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/mastercard.svg"
+  },
+  {
+    "id": "MCD",
+    "name": "MCDONALDS CORP",
+    "icon": "McDonald's",
+    "slug": "mcdonalds",
+    "brandSource": "https://www.mcdonalds.com/gb/en-gb/newsroom.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/mcdonalds.svg"
+  },
+  {
+    "id": "MRK",
+    "name": "Merck & Co., Inc.",
+    "icon": "Merck",
+    "slug": "merck",
+    "brandSource": "https://www.merck.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/merck.svg"
+  },
+  {
+    "id": "MDB",
+    "name": "MongoDB, Inc.",
+    "icon": "MongoDB",
+    "slug": "mongodb",
+    "brandSource": "https://www.mongodb.com/pressroom",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/mongodb.svg"
+  },
+  {
+    "id": "NGG",
+    "name": "NATIONAL GRID PLC",
+    "icon": "National Grid",
+    "slug": "nationalgrid",
+    "brandSource": "https://www.nationalgrid.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nationalgrid.svg"
+  },
+  {
+    "id": "NTAP",
+    "name": "NetApp, Inc.",
+    "icon": "NetApp",
+    "slug": "netapp",
+    "brandSource": "https://www.netapp.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/netapp.svg"
+  },
+  {
+    "id": "NFLX",
+    "name": "NETFLIX INC",
+    "icon": "Netflix",
+    "slug": "netflix",
+    "brandSource": "https://brand.netflix.com/en/assets/logos",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/netflix.svg"
+  },
+  {
+    "id": "NTGR",
+    "name": "NETGEAR, INC.",
+    "icon": "NETGEAR",
+    "slug": "netgear",
+    "brandSource": "https://www.powershift.netgear.de/images/powershift/collateral/logos-visio-icons/brandguideline_partner_2018.pdf",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/netgear.svg"
+  },
+  {
+    "id": "NYT",
+    "name": "NEW YORK TIMES CO",
+    "icon": "New York Times",
+    "slug": "newyorktimes",
+    "brandSource": "https://www.nytimes.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/newyorktimes.svg"
+  },
+  {
+    "id": "NEGG",
+    "name": "Newegg Commerce, Inc.",
+    "icon": "Newegg",
+    "slug": "newegg",
+    "brandSource": "https://www.newegg.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/newegg.svg"
+  },
+  {
+    "id": "NXDR",
+    "name": "Nextdoor Holdings, Inc.",
+    "icon": "Nextdoor",
+    "slug": "nextdoor",
+    "brandSource": "https://about.nextdoor.com/us-media/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nextdoor.svg"
+  },
+  {
+    "id": "NKE",
+    "name": "NIKE, Inc.",
+    "icon": "Nike",
+    "slug": "nike",
+    "brandSource": "https://www.nike.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nike.svg"
+  },
+  {
+    "id": "NOK",
+    "name": "NOKIA CORP",
+    "icon": "Nokia",
+    "slug": "nokia",
+    "brandSource": "https://www.nokia.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nokia.svg"
+  },
+  {
+    "id": "NTNX",
+    "name": "Nutanix, Inc.",
+    "icon": "Nutanix",
+    "slug": "nutanix",
+    "brandSource": "https://www.nutanix.com/content/dam/nutanix/en/cmn/documents/nutanix-brandbook.pdf",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nutanix.svg"
+  },
+  {
+    "id": "NVDA",
+    "name": "NVIDIA CORP",
+    "icon": "NVIDIA",
+    "slug": "nvidia",
+    "brandSource": "https://www.nvidia.com/en-us",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/nvidia.svg"
+  },
+  {
+    "id": "OKTA",
+    "name": "Okta, Inc.",
+    "icon": "Okta",
+    "slug": "okta",
+    "brandSource": "https://www.okta.com/press-room/media-assets/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/okta.svg"
+  },
+  {
+    "id": "OTEX",
+    "name": "OPEN TEXT CORP",
+    "icon": "OpenText",
+    "slug": "opentext",
+    "brandSource": "https://www.opentext.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/opentext.svg"
+  },
+  {
+    "id": "OPRA",
+    "name": "Opera Ltd",
+    "icon": "Opera",
+    "slug": "opera",
+    "brandSource": "https://brand.opera.com/1472-2/opera-logos/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/opera.svg"
+  },
+  {
+    "id": "OSK",
+    "name": "OSHKOSH CORP",
+    "icon": "Oshkosh",
+    "slug": "oshkosh",
+    "brandSource": "https://oshkoshdefense.com/media/photos/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/oshkosh.svg"
+  },
+  {
+    "id": "PD",
+    "name": "PagerDuty, Inc.",
+    "icon": "PagerDuty",
+    "slug": "pagerduty",
+    "brandSource": "https://www.pagerduty.com/brand/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/pagerduty.svg"
+  },
+  {
+    "id": "PAGS",
+    "name": "PagSeguro Digital Ltd.",
+    "icon": "PagSeguro",
+    "slug": "pagseguro",
+    "brandSource": "https://pagseguro.uol.com.br",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/pagseguro.svg"
+  },
+  {
+    "id": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "icon": "Palantir",
+    "slug": "palantir",
+    "brandSource": "https://github.com/palantir/conjure/blob/1b0d450dc52c4822b4c9d1da8c61ad7f78855fe5/docs/media/palantir-logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/palantir.svg"
+  },
+  {
+    "id": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "icon": "Palo Alto Networks",
+    "slug": "paloaltonetworks",
+    "brandSource": "https://www.paloaltonetworks.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/paloaltonetworks.svg"
+  },
+  {
+    "id": "PAYX",
+    "name": "PAYCHEX INC",
+    "icon": "Paychex",
+    "slug": "paychex",
+    "brandSource": "https://www.paychex.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/paychex.svg"
+  },
+  {
+    "id": "PAYO",
+    "name": "Payoneer Global Inc.",
+    "icon": "Payoneer",
+    "slug": "payoneer",
+    "brandSource": "https://www.payoneer.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/payoneer.svg"
+  },
+  {
+    "id": "PYPL",
+    "name": "PayPal Holdings, Inc.",
+    "icon": "PayPal",
+    "slug": "paypal",
+    "brandSource": "https://www.paypal.com/us",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/paypal.svg"
+  },
+  {
+    "id": "PSFE",
+    "name": "Paysafe Ltd",
+    "icon": "Paysafe",
+    "slug": "paysafe",
+    "brandSource": "https://brand.paysafe.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/paysafe.svg"
+  },
+  {
+    "id": "PSO",
+    "name": "PEARSON PLC",
+    "icon": "Pearson",
+    "slug": "pearson",
+    "brandSource": "https://www.pearson.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/pearson.svg"
+  },
+  {
+    "id": "PTON",
+    "name": "PELOTON INTERACTIVE, INC.",
+    "icon": "Peloton",
+    "slug": "peloton",
+    "brandSource": "https://press.onepeloton.com/#logos",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/peloton.svg"
+  },
+  {
+    "id": "PINS",
+    "name": "PINTEREST, INC.",
+    "icon": "Pinterest",
+    "slug": "pinterest",
+    "brandSource": "https://business.pinterest.com/en/brand-guidelines",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/pinterest.svg"
+  },
+  {
+    "id": "PL",
+    "name": "Planet Labs PBC",
+    "icon": "Planet",
+    "slug": "planet",
+    "brandSource": "https://www.planet.com/explorer/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/planet.svg"
+  },
+  {
+    "id": "PSNY",
+    "name": "Polestar Automotive Holding UK PLC",
+    "icon": "Polestar",
+    "slug": "polestar",
+    "brandSource": "https://commons.wikimedia.org/wiki/File:Polestar_logo_2020.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/polestar.svg"
+  },
+  {
+    "id": "PRGS",
+    "name": "PROGRESS SOFTWARE CORP /MA",
+    "icon": "Progress",
+    "slug": "progress",
+    "brandSource": "https://www.progress.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/progress.svg"
+  },
+  {
+    "id": "QCOM",
+    "name": "QUALCOMM INC/DE",
+    "icon": "Qualcomm",
+    "slug": "qualcomm",
+    "brandSource": "https://www.qualcomm.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/qualcomm.svg"
+  },
+  {
+    "id": "QLYS",
+    "name": "QUALYS, INC.",
+    "icon": "Qualys",
+    "slug": "qualys",
+    "brandSource": "https://www.qualys.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/qualys.svg"
+  },
+  {
+    "id": "RDDT",
+    "name": "Reddit, Inc.",
+    "icon": "Reddit",
+    "slug": "reddit",
+    "brandSource": "https://www.redditinc.com/brand",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/reddit.svg"
+  },
+  {
+    "id": "HOOD",
+    "name": "Robinhood Markets, Inc.",
+    "icon": "Robinhood",
+    "slug": "robinhood",
+    "brandSource": "https://press.robinhood.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/robinhood.svg"
+  },
+  {
+    "id": "RBLX",
+    "name": "Roblox Corp",
+    "icon": "Roblox",
+    "slug": "roblox",
+    "brandSource": "https://www.roblox.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/roblox.svg"
+  },
+  {
+    "id": "ROK",
+    "name": "ROCKWELL AUTOMATION, INC",
+    "icon": "Rockwell Automation",
+    "slug": "rockwellautomation",
+    "brandSource": "https://www.rockwellautomation.com/en-ie/company/news.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/rockwellautomation.svg"
+  },
+  {
+    "id": "ROKU",
+    "name": "ROKU, INC",
+    "icon": "Roku",
+    "slug": "roku",
+    "brandSource": "https://www.roku.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/roku.svg"
+  },
+  {
+    "id": "RYAAY",
+    "name": "RYANAIR HOLDINGS PLC",
+    "icon": "Ryanair",
+    "slug": "ryanair",
+    "brandSource": "https://corporate.ryanair.com/media-centre/stock-images-gallery/#album-container-3",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/ryanair.svg"
+  },
+  {
+    "id": "STX",
+    "name": "Seagate Technology Holdings plc",
+    "icon": "Seagate",
+    "slug": "seagate",
+    "brandSource": "https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/seagate.svg"
+  },
+  {
+    "id": "SHEL",
+    "name": "Shell plc",
+    "icon": "Shell",
+    "slug": "shell",
+    "brandSource": "https://en.wikipedia.org/wiki/File:Shell_logo.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/shell.svg"
+  },
+  {
+    "id": "SHOP",
+    "name": "SHOPIFY INC.",
+    "icon": "Shopify",
+    "slug": "shopify",
+    "brandSource": "https://www.shopify.com/brand-assets",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/shopify.svg"
+  },
+  {
+    "id": "SMWB",
+    "name": "SIMILARWEB LTD.",
+    "icon": "Similarweb",
+    "slug": "similarweb",
+    "brandSource": "https://www.similarweb.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/similarweb.svg"
+  },
+  {
+    "id": "SNOW",
+    "name": "Snowflake Inc.",
+    "icon": "Snowflake",
+    "slug": "snowflake",
+    "brandSource": "https://www.snowflake.com/brand-guidelines/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/snowflake.svg"
+  },
+  {
+    "id": "SONO",
+    "name": "Sonos Inc",
+    "icon": "Sonos",
+    "slug": "sonos",
+    "brandSource": "https://www.sonos.com/en-gb/home",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/sonos.svg"
+  },
+  {
+    "id": "SONY",
+    "name": "Sony Group Corp",
+    "icon": "Sony",
+    "slug": "sony",
+    "brandSource": "https://www.sony.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/sony.svg"
+  },
+  {
+    "id": "LUV",
+    "name": "SOUTHWEST AIRLINES CO",
+    "icon": "Southwest Airlines",
+    "slug": "southwestairlines",
+    "brandSource": "https://www.southwest.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/southwestairlines.svg"
+  },
+  {
+    "id": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "icon": "Spotify",
+    "slug": "spotify",
+    "brandSource": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/spotify.svg"
+  },
+  {
+    "id": "SBUX",
+    "name": "STARBUCKS CORP",
+    "icon": "Starbucks",
+    "slug": "starbucks",
+    "brandSource": "https://starbucks.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/starbucks.svg"
+  },
+  {
+    "id": "STM",
+    "name": "STMicroelectronics N.V.",
+    "icon": "STMicroelectronics",
+    "slug": "stmicroelectronics",
+    "brandSource": "https://www.st.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/stmicroelectronics.svg"
+  },
+  {
+    "id": "STUB",
+    "name": "StubHub Holdings, Inc.",
+    "icon": "StubHub",
+    "slug": "stubhub",
+    "brandSource": "https://www.stubhub.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/stubhub.svg"
+  },
+  {
+    "id": "SMCI",
+    "name": "Super Micro Computer, Inc.",
+    "icon": "Supermicro",
+    "slug": "supermicro",
+    "brandSource": "https://www.supermicro.com/manuals/supermicro_logo_guidelines.pdf",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/supermicro.svg"
+  },
+  {
+    "id": "TTWO",
+    "name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+    "icon": "Take-Two Interactive Software",
+    "slug": "taketwointeractivesoftware",
+    "brandSource": "https://www.take2games.com/ir",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/taketwointeractivesoftware.svg"
+  },
+  {
+    "id": "TGT",
+    "name": "TARGET CORP",
+    "icon": "Target",
+    "slug": "target",
+    "brandSource": "https://www.target.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/target.svg"
+  },
+  {
+    "id": "TDC",
+    "name": "TERADATA CORP /DE/",
+    "icon": "Teradata",
+    "slug": "teradata",
+    "brandSource": "https://github.com/Teradata/teradata.github.io/blob/0fb3886aaeefea7bea4951c300f49ac8f9c2476f/src/assets/icons/teradata-icon.svg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/teradata.svg"
+  },
+  {
+    "id": "TSLA",
+    "name": "Tesla, Inc.",
+    "icon": "Tesla",
+    "slug": "tesla",
+    "brandSource": "https://www.tesla.com/tesla-gallery",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/tesla.svg"
+  },
+  {
+    "id": "TM",
+    "name": "TOYOTA MOTOR CORP/",
+    "icon": "Toyota",
+    "slug": "toyota",
+    "brandSource": "https://www.toyota.com/brandguidelines/logo/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/toyota.svg"
+  },
+  {
+    "id": "ILLR",
+    "name": "Triller Group Inc.",
+    "icon": "Triller",
+    "slug": "triller",
+    "brandSource": "https://triller.co",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/triller.svg"
+  },
+  {
+    "id": "TRMB",
+    "name": "TRIMBLE INC.",
+    "icon": "Trimble",
+    "slug": "trimble",
+    "brandSource": "https://www.trimble.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/trimble.svg"
+  },
+  {
+    "id": "TCOM",
+    "name": "Trip.com Group Ltd",
+    "icon": "Trip.com",
+    "slug": "tripdotcom",
+    "brandSource": "https://careers.trip.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/tripdotcom.svg"
+  },
+  {
+    "id": "TRIP",
+    "name": "TripAdvisor, Inc.",
+    "icon": "Tripadvisor",
+    "slug": "tripadvisor",
+    "brandSource": "https://tripadvisor.mediaroom.com/logo-guidelines",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/tripadvisor.svg"
+  },
+  {
+    "id": "TRVG",
+    "name": "trivago N.V.",
+    "icon": "trivago",
+    "slug": "trivago",
+    "brandSource": "https://company.trivago.com/press-media",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/trivago.svg"
+  },
+  {
+    "id": "UI",
+    "name": "Ubiquiti Inc.",
+    "icon": "Ubiquiti",
+    "slug": "ubiquiti",
+    "brandSource": "https://www.ui.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/ubiquiti.svg"
+  },
+  {
+    "id": "PATH",
+    "name": "UiPath, Inc.",
+    "icon": "UiPath",
+    "slug": "uipath",
+    "brandSource": "https://www.uipath.com/newsroom",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/uipath.svg"
+  },
+  {
+    "id": "UAA",
+    "name": "Under Armour, Inc.",
+    "icon": "Under Armour",
+    "slug": "underarmour",
+    "brandSource": "https://www.underarmour.com/en-us",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/underarmour.svg"
+  },
+  {
+    "id": "UA",
+    "name": "Under Armour, Inc.",
+    "icon": "Under Armour",
+    "slug": "underarmour",
+    "brandSource": "https://www.underarmour.com/en-us",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/underarmour.svg"
+  },
+  {
+    "id": "UL",
+    "name": "UNILEVER PLC",
+    "icon": "Unilever",
+    "slug": "unilever",
+    "brandSource": "https://www.unilever.com/our-company/the-logo",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/unilever.svg"
+  },
+  {
+    "id": "UAL",
+    "name": "United Airlines Holdings, Inc.",
+    "icon": "United Airlines",
+    "slug": "unitedairlines",
+    "brandSource": "https://www.united.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/unitedairlines.svg"
+  },
+  {
+    "id": "UPWK",
+    "name": "UPWORK, INC",
+    "icon": "Upwork",
+    "slug": "upwork",
+    "brandSource": "https://www.upwork.com/press/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/upwork.svg"
+  },
+  {
+    "id": "VZ",
+    "name": "VERIZON COMMUNICATIONS INC",
+    "icon": "Verizon",
+    "slug": "verizon",
+    "brandSource": "https://www.verizondigitalmedia.com/about/logo-usage/",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/verizon.svg"
+  },
+  {
+    "id": "V",
+    "name": "VISA INC.",
+    "icon": "Visa",
+    "slug": "visa",
+    "brandSource": "https://merchantsignageeu.visa.com/product.asp?dptID=696",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/visa.svg"
+  },
+  {
+    "id": "VOD",
+    "name": "VODAFONE GROUP PUBLIC LTD CO",
+    "icon": "Vodafone",
+    "slug": "vodafone",
+    "brandSource": "https://web.vodafone.com.eg",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/vodafone.svg"
+  },
+  {
+    "id": "VTEX",
+    "name": "VTEX",
+    "icon": "VTEX",
+    "slug": "vtex",
+    "brandSource": "https://vtex.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/vtex.svg"
+  },
+  {
+    "id": "WBTN",
+    "name": "WEBTOON Entertainment Inc.",
+    "icon": "WEBTOON",
+    "slug": "webtoon",
+    "brandSource": "https://webtoons.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/webtoon.svg"
+  },
+  {
+    "id": "WFC",
+    "name": "WELLS FARGO & COMPANY/MN",
+    "icon": "Wells Fargo",
+    "slug": "wellsfargo",
+    "brandSource": "https://www.wellsfargo.com/about",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/wellsfargo.svg"
+  },
+  {
+    "id": "WU",
+    "name": "Western Union CO",
+    "icon": "Western Union",
+    "slug": "westernunion",
+    "brandSource": "https://www.westernunion.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/westernunion.svg"
+  },
+  {
+    "id": "WIT",
+    "name": "WIPRO LTD",
+    "icon": "Wipro",
+    "slug": "wipro",
+    "brandSource": "https://www.wipro.com/content/dam/nexus/en/service-lines/applications/latest-thinking/state-of-cybersecurity-report-2019.pdf",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/wipro.svg"
+  },
+  {
+    "id": "YELP",
+    "name": "YELP INC",
+    "icon": "Yelp",
+    "slug": "yelp",
+    "brandSource": "https://www.yelp.com/brand",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/yelp.svg"
+  },
+  {
+    "id": "YETI",
+    "name": "YETI Holdings, Inc.",
+    "icon": "Yeti",
+    "slug": "yeti",
+    "brandSource": "https://www.yeti.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/yeti.svg"
+  },
+  {
+    "id": "ZBRA",
+    "name": "ZEBRA TECHNOLOGIES CORP",
+    "icon": "Zebra Technologies",
+    "slug": "zebratechnologies",
+    "brandSource": "https://www.zebra.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/zebratechnologies.svg"
+  },
+  {
+    "id": "ZH",
+    "name": "Zhihu Inc.",
+    "icon": "Zhihu",
+    "slug": "zhihu",
+    "brandSource": "https://www.zhihu.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/zhihu.svg"
+  },
+  {
+    "id": "ZG",
+    "name": "ZILLOW GROUP, INC.",
+    "icon": "Zillow",
+    "slug": "zillow",
+    "brandSource": "https://www.zillow.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/zillow.svg"
+  },
+  {
+    "id": "Z",
+    "name": "ZILLOW GROUP, INC.",
+    "icon": "Zillow",
+    "slug": "zillow",
+    "brandSource": "https://www.zillow.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/zillow.svg"
+  },
+  {
+    "id": "MSFT",
+    "name": "MICROSOFT CORP",
+    "icon": "Microsoft",
+    "slug": "microsoft",
+    "brandSource": "https://developer.microsoft.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/microsoft.svg"
+  },
+  {
+    "id": "AMZN",
+    "name": "AMAZON COM INC",
+    "icon": "Amazon",
+    "slug": "amazon",
+    "brandSource": "https://www.amazon.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/amazon.svg"
+  },
+  {
+    "id": "ADBE",
+    "name": "ADOBE INC.",
+    "icon": "Adobe",
+    "slug": "adobe",
+    "brandSource": "https://www.adobe.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/adobe.svg"
+  },
+  {
+    "id": "ORCL",
+    "name": "ORACLE CORP",
+    "icon": "Oracle",
+    "slug": "oracle",
+    "brandSource": "https://www.oracle.com/opn/index.html",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/oracle.svg"
+  },
+  {
+    "id": "CRM",
+    "name": "Salesforce, Inc.",
+    "icon": "Salesforce",
+    "slug": "salesforce",
+    "brandSource": "https://brand.salesforce.com/content/logo-guidelines",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/salesforce.svg"
+  },
+  {
+    "id": "META",
+    "name": "Meta Platforms, Inc.",
+    "icon": "Meta",
+    "slug": "meta",
+    "brandSource": "https://www.meta.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/meta.svg"
+  },
+  {
+    "id": "AMD",
+    "name": "ADVANCED MICRO DEVICES INC",
+    "icon": "AMD",
+    "slug": "amd",
+    "brandSource": "https://www.amd.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/amd.svg"
+  },
+  {
+    "id": "GOOG",
+    "name": "Alphabet Inc.",
+    "icon": "Google",
+    "slug": "google",
+    "brandSource": "https://partnermarketinghub.withgoogle.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/google.svg"
+  },
+  {
+    "id": "GOOGL",
+    "name": "Alphabet Inc.",
+    "icon": "Google",
+    "slug": "google",
+    "brandSource": "https://partnermarketinghub.withgoogle.com",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/google.svg"
+  },
+  {
+    "id": "UBER",
+    "name": "Uber Technologies, Inc",
+    "icon": "Uber",
+    "slug": "uber",
+    "brandSource": "https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/uber.svg"
+  },
+  {
+    "id": "MOEX:AFLT",
+    "name": "Аэрофлот-росс.авиалин(ПАО)ао",
+    "icon": "Aeroflot",
+    "slug": "aeroflot",
+    "brandSource": "https://www.aeroflot.ru/ru-en/information/onboard/press",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/aeroflot.svg"
+  },
+  {
+    "id": "MOEX:VKCO",
+    "name": "Международная компания ПАО ВК",
+    "icon": "VK",
+    "slug": "vk",
+    "brandSource": "https://vk.com/brand",
+    "asset": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/vk.svg"
+  }
+]

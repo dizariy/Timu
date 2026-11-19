@@ -1,0 +1,174 @@
+:root {
+  --timu-violet-bright: #8b3dff;
+  --timu-violet-mid: #5120b1;
+  --timu-violet-deep: #04002b;
+  --timu-brand-gradient: linear-gradient(155deg, var(--timu-violet-bright), var(--timu-violet-mid) 43%, var(--timu-violet-deep));
+  --link-purple: #5d2b9e;
+  --active-purple: #642bb6;
+  --purple: var(--active-purple);
+  --link-purple-hover: #7338b9;
+  --card-surface: #f7f6f8;
+  --card-outline: #f9f8fa;
+  --card-muted-ink: #645e6a;
+  --card-shadow: 0 7px 20px #22193510;
+  --card-hover-shadow: 0 9px 25px #2219351c;
+  --card-motion: 320ms cubic-bezier(.22,.68,.3,1);
+}
+
+.news-card.missing-brand { --brand-gradient: var(--timu-brand-gradient); }
+.company-mini.missing-brand, .currency-mark { background: var(--timu-brand-gradient); }
+
+.news-card, .news-card:hover { box-shadow: var(--card-shadow); }
+.news-card .card-body,
+.market-card-surface,
+.currency-bank-row,
+.purchase-region {
+  background: var(--card-surface);
+}
+
+.currency-bank-row { box-shadow: var(--card-shadow); }
+.purchase-offer { background: #efedf1; }
+
+.news-open p, .card-footer,
+.currency-card-title > div > span, .currency-side-label, .currency-rate small,
+.currency-location, .currency-offer-time, .currency-bank-heading p,
+.currency-table-head, .currency-bank-rate a, .currency-bank-rate small,
+.resource-price > small, .resource-date, .resource-region > span small,
+.resource-region > strong small, .resource-region > .resource-region-date {
+  color: var(--card-muted-ink);
+}
+
+.currency-forecast-note a, .purchase-panel a,
+.resource-market-tabs button.active, .resource-period-tabs button.active {
+  color: var(--link-purple);
+}
+
+.currency-bank-name a:hover, .currency-bank-heading a:hover, .currency-bank-rate a:hover,
+.currency-source a:hover, .inline-link:hover, .text-button:hover,
+.resource-detail-source a:hover, .info-prose a:hover, .purchase-panel a:hover {
+  color: var(--link-purple-hover);
+  filter: none;
+}
+
+.bookmark[aria-pressed="true"] { color: var(--active-purple); }
+.bookmark[aria-pressed="true"] svg { fill: #e8ddf5; }
+.primary-link { background: var(--active-purple); }
+.primary-link:hover { background: var(--link-purple-hover); }
+
+/* Separate the moving content surface from the colored mark in both market tabs. */
+:is(.currency-card, .resource-card) {
+  position: relative;
+  isolation: isolate;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.resource-card { display: block; transition: none; }
+.resource-card:is(:hover, :focus-visible, :active) { transform: none; box-shadow: none; }
+.resource-card:focus-visible { outline-color: var(--active-purple); }
+
+.market-card-surface {
+  display: block;
+  position: relative;
+  min-width: 0;
+  border: 1px solid var(--card-outline);
+  border-radius: inherit;
+  padding: var(--market-pad-y) var(--market-pad-x);
+  box-shadow: var(--card-shadow);
+  transform-origin: center;
+  transition: scale var(--card-motion), box-shadow var(--card-motion);
+}
+
+.currency-card {
+  --market-pad-x: 22px;
+  --market-pad-y: 22px;
+  --market-mark-width: 48px;
+  --market-mark-height: 48px;
+}
+.currency-card-title {
+  min-height: var(--market-mark-height);
+  padding-inline-start: calc(var(--market-mark-width) + 13px);
+}
+
+.resource-card {
+  --market-pad-x: 20px;
+  --market-pad-y: 20px;
+  --market-mark-width: 79px;
+  --market-mark-height: 88px;
+}
+.resource-card .market-card-surface {
+  display: grid;
+  grid-template-columns: var(--market-mark-width) minmax(0, 1fr);
+  gap: 17px;
+}
+.resource-card .resource-body {
+  grid-column: 2;
+  min-height: var(--market-mark-height);
+}
+
+.market-card-mark {
+  --mark-travel: 7px;
+  position: absolute;
+  z-index: 1;
+  inset-block-start: calc(var(--market-pad-y) + 1px);
+  inset-inline-start: calc(var(--market-pad-x) + 1px - var(--mark-travel));
+  width: calc(var(--market-mark-width) + var(--mark-travel));
+  height: var(--market-mark-height);
+  padding-inline-start: var(--mark-travel);
+}
+.market-card-mark > span {
+  pointer-events: none;
+  transition: translate var(--card-motion), filter var(--card-motion), box-shadow var(--card-motion);
+}
+.resource-mark {
+  background: linear-gradient(140deg, var(--metal-light) -45%, color-mix(in srgb, var(--metal-dark) 71%, #302539) 76%);
+  color: #fffaf6;
+}
+.resource-mark > span {
+  font-weight: 600;
+  letter-spacing: .9px;
+  opacity: 1;
+}
+.resource-card:active .market-card-surface { box-shadow: var(--pressed); }
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .news-card .card-body:hover { box-shadow: var(--card-hover-shadow); }
+  .market-card-surface:hover {
+    scale: 1.018;
+    box-shadow: var(--card-hover-shadow);
+  }
+  .market-card-mark:hover > span {
+    translate: calc(-1 * var(--mark-travel)) 0;
+    filter: brightness(1.09);
+    box-shadow: inset 1px 1px 2px #ffffff68, 5px 6px 13px #22193532;
+  }
+}
+
+@media (max-width: 500px) {
+  .currency-card {
+    --market-pad-x: 17px;
+    --market-pad-y: 20px;
+    --market-mark-width: 43px;
+    --market-mark-height: 43px;
+  }
+  .resource-card {
+    --market-pad-x: 16px;
+    --market-pad-y: 18px;
+    --market-mark-width: 69px;
+    --market-mark-height: 82px;
+  }
+  .resource-card .market-card-surface { gap: 16px; }
+}
+
+@media (max-width: 350px) {
+  .currency-card { --market-pad-x: 14px; --market-pad-y: 18px; }
+  .resource-card {
+    --market-pad-x: 14px;
+    --market-pad-y: 17px;
+    --market-mark-width: 61px;
+    --market-mark-height: 77px;
+  }
+  .resource-card .market-card-surface { gap: 13px; }
+}

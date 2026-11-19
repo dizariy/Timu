@@ -1,0 +1,34 @@
+{
+  "asOf": "2026-10-06",
+  "source": "SEC EDGAR + Nasdaq Trader symbol directories + Moscow Exchange ISS",
+  "sources": [
+    "https://www.sec.gov/files/company_tickers_exchange.json",
+    "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
+    "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt",
+    "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities.json"
+  ],
+  "totalCompanies": 5857,
+  "totalListings": 5857,
+  "usListings": 5597,
+  "moexListings": 260,
+  "uniqueUsIssuers": 5552,
+  "withLogo": 174,
+  "withoutLogo": 5683,
+  "exchanges": {
+    "NASDAQ": 3395,
+    "NYSE": 1955,
+    "MOEX": 260,
+    "NYSE AMERICAN": 244,
+    "CBOE": 1,
+    "TXSE": 1,
+    "NYSE ARCA": 1
+  },
+  "coreCount": 32,
+  "nasdaqFileCreation": "1005202621:31",
+  "scope": "US exchange-listed common/ordinary/ADR equity listings present in both SEC and Nasdaq directories, plus active MOEX TQBR common/preferred shares and depositary receipts. Not a worldwide universe; multiple share classes can represent one issuer.",
+  "logoPackages": [
+    "simple-icons@16.34.0",
+    "simple-icons@11.15.0"
+  ],
+  "fallback": "orange timu mark"
+}
